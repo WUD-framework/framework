@@ -1,0 +1,26 @@
+@mixin btn($btn-bg-color, $btn-text-color) {
+  padding: $base-padding $base-padding * 2;
+  border-radius: $base-border-radius;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: $btn-bg-color;
+  color: $btn-text-color
+}
+
+.btn {
+  @include btn(#acacac, #1c1c1c);
+}
+
+@each $key, $val in $theme-colors {
+  .btn-#{$key} {
+    @include btn($val, white);
+
+  }
+
+  .btn-outlined-#{$key} {
+    @include btn(white, $val);
+    border: $base-border-thickness solid $val;
+  }
+}
