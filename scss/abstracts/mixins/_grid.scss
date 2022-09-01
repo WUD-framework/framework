@@ -18,10 +18,7 @@
     @for $column-number from 1 through $grid-cols {
       .col#{$modifier}-#{$column-number} {
         flex-basis: (100 / ($grid-cols / $column-number)) * 1%;
-        // background-color: white;
-        // content: '.col#{$modifier}-#{$column-number}';
-        padding: 1rem;
-        border: 1px solid;
+        flex-grow: 0;
       }
     }
   }
@@ -31,23 +28,10 @@
   @include create-col-classes($modifier, $grid-cols, $breakpoint)
 }
 
-@mixin create-col-classes-calendar ($modifier, $grid-cols-calendar, $breakpoint) {
-  @include create-bp($breakpoint) {
-    @for $column-number from 1 through $grid-cols-calendar {
-      .col#{$modifier}-#{$column-number}-calendar {
-        flex-basis: (100 / ($grid-cols-calendar / $column-number)) * 1%;
-        // background-color: white;
-        // content: '.col#{$modifier}-#{$column-number}';
-        padding: 1rem;
-        border: 1px solid;
-        height: 8rem;
-      }
-    }
+// -- JUSTIFY CONTENT CLASSES --
+@each $val in $layout-values {
+  .#{$val} {
+    justify-content: $val;
   }
 }
-
-@each $modifier, $breakpoint in $map-grid-prop {
-  @include create-col-classes-calendar($modifier, $grid-cols-calendar, $breakpoint)
-}
-
 

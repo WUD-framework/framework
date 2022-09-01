@@ -1,43 +1,27 @@
 .container {
-  background-color: #ececec;
   width: 100%;
   max-width: $container-width * 1px;
-  padding: 1rem;
+  padding-left: $base-padding;
+  padding-right: $base-padding;
   margin: 0 auto;
-  margin-bottom: 1rem;
+
 
   &-fluid {
     width: 100%;
-    padding: 1rem;
-    background-color: lightcoral;
-    margin-bottom: 1rem;
+    padding-left: $base-padding;
+    padding-right: $base-padding;
   }
 }
 
 .row {
-  background-color: lightblue;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin: 0;
+  margin-left: $grid-gutter-size * -1;
+  margin-right: $grid-gutter-size * -1;
 
-
-  //gap: $gap * 1rem;
-}
-
-.m-1 {
-  margin: 1rem;
-}
-
-.m-2 {
-  margin: 2rem;
-}
-
-.my-1 {
-  margin: 1rem 0;
-}
-
-.mx-1 {
-  margin: 1rem;
+  & > * {
+    padding: $grid-gutter-size;
+  }
 }
 
