@@ -27,16 +27,6 @@ $base-border-radius: .5rem;
 $base-border-thickness: 1px;
 
 
-
-
-
-
-
-
-
-
-
-
 // !important gör att den css går över hierarki
 // !default Motsatsen till important
 
@@ -45,9 +35,8 @@ $container-width: 1200 !default;
 
 // -- GRID --
 $grid-cols: 12 !default;
-$gap: 1;
-
-$grid-cols-calendar: 7 !default;
+$grid-gutter-size: 1rem;
+$layout-values: flex-start, flex-end, center, space-between, space-around;
 
 // -- BREAKPOINT --
 $grid-bp-small: 576 !default;
@@ -64,6 +53,9 @@ $map-grid-prop: ('': 0,
   '-xlarge': $grid-bp-xlarge,
   '-stupid-show-off': $grid-bp-stupid-show-off-large-screen,
 ) !default;
+
+
+// -- TYPOGRAPHY --
 
 $heading-sizes: (
   'h1': 2rem,

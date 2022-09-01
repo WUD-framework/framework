@@ -6,655 +6,334 @@
 
 .col-1 {
   flex-basis: 8.3333333333%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-2 {
   flex-basis: 16.6666666667%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-3 {
   flex-basis: 25%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-4 {
   flex-basis: 33.3333333333%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-5 {
   flex-basis: 41.6666666667%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-6 {
   flex-basis: 50%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-7 {
   flex-basis: 58.3333333333%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-8 {
   flex-basis: 66.6666666667%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-9 {
   flex-basis: 75%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-10 {
   flex-basis: 83.3333333333%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-11 {
   flex-basis: 91.6666666667%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 .col-12 {
   flex-basis: 100%;
-  padding: 1rem;
-  border: 1px solid;
+  flex-grow: 0;
 }
 
 @media (min-width: 576px) {
   .col-small-1 {
     flex-basis: 8.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-2 {
     flex-basis: 16.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-3 {
     flex-basis: 25%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-4 {
     flex-basis: 33.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-5 {
     flex-basis: 41.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-6 {
     flex-basis: 50%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-7 {
     flex-basis: 58.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-8 {
     flex-basis: 66.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-9 {
     flex-basis: 75%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-10 {
     flex-basis: 83.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-11 {
     flex-basis: 91.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-small-12 {
     flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
 }
 @media (min-width: 768px) {
   .col-medium-1 {
     flex-basis: 8.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-2 {
     flex-basis: 16.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-3 {
     flex-basis: 25%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-4 {
     flex-basis: 33.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-5 {
     flex-basis: 41.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-6 {
     flex-basis: 50%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-7 {
     flex-basis: 58.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-8 {
     flex-basis: 66.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-9 {
     flex-basis: 75%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-10 {
     flex-basis: 83.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-11 {
     flex-basis: 91.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-medium-12 {
     flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
 }
 @media (min-width: 992px) {
   .col-large-1 {
     flex-basis: 8.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-2 {
     flex-basis: 16.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-3 {
     flex-basis: 25%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-4 {
     flex-basis: 33.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-5 {
     flex-basis: 41.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-6 {
     flex-basis: 50%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-7 {
     flex-basis: 58.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-8 {
     flex-basis: 66.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-9 {
     flex-basis: 75%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-10 {
     flex-basis: 83.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-11 {
     flex-basis: 91.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-large-12 {
     flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
 }
 @media (min-width: 1200px) {
   .col-xlarge-1 {
     flex-basis: 8.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-2 {
     flex-basis: 16.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-3 {
     flex-basis: 25%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-4 {
     flex-basis: 33.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-5 {
     flex-basis: 41.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-6 {
     flex-basis: 50%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-7 {
     flex-basis: 58.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-8 {
     flex-basis: 66.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-9 {
     flex-basis: 75%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-10 {
     flex-basis: 83.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-11 {
     flex-basis: 91.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-xlarge-12 {
     flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
 }
 @media (min-width: 4000px) {
   .col-stupid-show-off-1 {
     flex-basis: 8.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-2 {
     flex-basis: 16.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-3 {
     flex-basis: 25%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-4 {
     flex-basis: 33.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-5 {
     flex-basis: 41.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-6 {
     flex-basis: 50%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-7 {
     flex-basis: 58.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-8 {
     flex-basis: 66.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-9 {
     flex-basis: 75%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-10 {
     flex-basis: 83.3333333333%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-11 {
     flex-basis: 91.6666666667%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
   .col-stupid-show-off-12 {
     flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
+    flex-grow: 0;
   }
 }
-.col-1-calendar {
-  flex-basis: 14.2857142857%;
-  padding: 1rem;
-  border: 1px solid;
-  height: 8rem;
+.flex-start {
+  justify-content: flex-start;
 }
 
-.col-2-calendar {
-  flex-basis: 28.5714285714%;
-  padding: 1rem;
-  border: 1px solid;
-  height: 8rem;
+.flex-end {
+  justify-content: flex-end;
 }
 
-.col-3-calendar {
-  flex-basis: 42.8571428571%;
-  padding: 1rem;
-  border: 1px solid;
-  height: 8rem;
+.center {
+  justify-content: center;
 }
 
-.col-4-calendar {
-  flex-basis: 57.1428571429%;
-  padding: 1rem;
-  border: 1px solid;
-  height: 8rem;
+.space-between {
+  justify-content: space-between;
 }
 
-.col-5-calendar {
-  flex-basis: 71.4285714286%;
-  padding: 1rem;
-  border: 1px solid;
-  height: 8rem;
+.space-around {
+  justify-content: space-around;
 }
 
-.col-6-calendar {
-  flex-basis: 85.7142857143%;
-  padding: 1rem;
-  border: 1px solid;
-  height: 8rem;
-}
-
-.col-7-calendar {
-  flex-basis: 100%;
-  padding: 1rem;
-  border: 1px solid;
-  height: 8rem;
-}
-
-@media (min-width: 576px) {
-  .col-small-1-calendar {
-    flex-basis: 14.2857142857%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-small-2-calendar {
-    flex-basis: 28.5714285714%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-small-3-calendar {
-    flex-basis: 42.8571428571%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-small-4-calendar {
-    flex-basis: 57.1428571429%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-small-5-calendar {
-    flex-basis: 71.4285714286%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-small-6-calendar {
-    flex-basis: 85.7142857143%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-small-7-calendar {
-    flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-}
-@media (min-width: 768px) {
-  .col-medium-1-calendar {
-    flex-basis: 14.2857142857%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-medium-2-calendar {
-    flex-basis: 28.5714285714%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-medium-3-calendar {
-    flex-basis: 42.8571428571%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-medium-4-calendar {
-    flex-basis: 57.1428571429%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-medium-5-calendar {
-    flex-basis: 71.4285714286%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-medium-6-calendar {
-    flex-basis: 85.7142857143%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-medium-7-calendar {
-    flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-}
-@media (min-width: 992px) {
-  .col-large-1-calendar {
-    flex-basis: 14.2857142857%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-large-2-calendar {
-    flex-basis: 28.5714285714%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-large-3-calendar {
-    flex-basis: 42.8571428571%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-large-4-calendar {
-    flex-basis: 57.1428571429%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-large-5-calendar {
-    flex-basis: 71.4285714286%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-large-6-calendar {
-    flex-basis: 85.7142857143%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-large-7-calendar {
-    flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-}
-@media (min-width: 1200px) {
-  .col-xlarge-1-calendar {
-    flex-basis: 14.2857142857%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-xlarge-2-calendar {
-    flex-basis: 28.5714285714%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-xlarge-3-calendar {
-    flex-basis: 42.8571428571%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-xlarge-4-calendar {
-    flex-basis: 57.1428571429%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-xlarge-5-calendar {
-    flex-basis: 71.4285714286%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-xlarge-6-calendar {
-    flex-basis: 85.7142857143%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-xlarge-7-calendar {
-    flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-}
-@media (min-width: 4000px) {
-  .col-stupid-show-off-1-calendar {
-    flex-basis: 14.2857142857%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-stupid-show-off-2-calendar {
-    flex-basis: 28.5714285714%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-stupid-show-off-3-calendar {
-    flex-basis: 42.8571428571%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-stupid-show-off-4-calendar {
-    flex-basis: 57.1428571429%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-stupid-show-off-5-calendar {
-    flex-basis: 71.4285714286%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-stupid-show-off-6-calendar {
-    flex-basis: 85.7142857143%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-  .col-stupid-show-off-7-calendar {
-    flex-basis: 100%;
-    padding: 1rem;
-    border: 1px solid;
-    height: 8rem;
-  }
-}
 .btn {
   padding: 1rem 2rem;
   border-radius: 0.5rem;
@@ -2173,42 +1852,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  background-color: #ececec;
   width: 100%;
   max-width: 1200px;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin: 0 auto;
-  margin-bottom: 1rem;
 }
 .container-fluid {
   width: 100%;
-  padding: 1rem;
-  background-color: lightcoral;
-  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .row {
-  background-color: lightblue;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin: 0;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
-
-.m-1 {
-  margin: 1rem;
-}
-
-.m-2 {
-  margin: 2rem;
-}
-
-.my-1 {
-  margin: 1rem 0;
-}
-
-.mx-1 {
-  margin: 1rem;
+.row > * {
+  padding: 1rem;
 }
 
 .navigation {
