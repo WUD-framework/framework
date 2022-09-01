@@ -1519,11 +1519,6 @@
   background-color: #000d0d;
 }
 
-.box {
-  width: 4rem;
-  height: 4rem;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1837,6 +1832,10 @@ template {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul {
+  padding-inline-start: 2rem;
 }
 
 * {
