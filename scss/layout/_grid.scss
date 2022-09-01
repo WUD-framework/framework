@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  max-width: $container-width * 1px;
+  padding-left: $base-padding;
+  padding-right: $base-padding;
+  margin: 0 auto;
+
+
+  &-fluid {
+    width: 100%;
+    padding-left: $base-padding;
+    padding-right: $base-padding;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: $grid-gutter-size * -1;
+  margin-right: $grid-gutter-size * -1;
+
+  & > * {
+    padding: $grid-gutter-size;
+  }
+}
+
