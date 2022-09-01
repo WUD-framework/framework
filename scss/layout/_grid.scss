@@ -4,6 +4,7 @@
   padding-left: $base-padding;
   padding-right: $base-padding;
   margin: 0 auto;
+  border: 2px solid deeppink;
 
 
   &-fluid {
@@ -16,9 +17,10 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  min-width: 100%;
   margin-left: $grid-gutter-size * -1;
   margin-right: $grid-gutter-size * -1;
+  border: 1px solid;
 
   & > * {
     padding: $grid-gutter-size;

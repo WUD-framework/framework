@@ -16,7 +16,6 @@
 @each $key, $val in $theme-colors {
   .btn-#{$key} {
     @include btn($val, white);
-
   }
 
   .btn-outlined-#{$key} {

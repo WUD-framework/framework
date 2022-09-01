@@ -19,6 +19,7 @@
       .col#{$modifier}-#{$column-number} {
         flex-basis: (100 / ($grid-cols / $column-number)) * 1%;
         flex-grow: 0;
+        border: 1px solid green;
       }
     }
   }

@@ -35,7 +35,8 @@ $container-width: 1200 !default;
 
 // -- GRID --
 $grid-cols: 12 !default;
-$grid-gutter-size: 1rem;
+$grid-gutter-size: 1rem !default;
+
 $layout-values: flex-start, flex-end, center, space-between, space-around;
 
 // -- BREAKPOINT --
