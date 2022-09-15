@@ -10,7 +10,7 @@
     margin: auto;
 }
 
-.prev, .next {
+#prev, #next {
     position: absolute;
     top: 50%;
     width: auto;
@@ -18,11 +18,17 @@
     padding: 16px;
 }
 
-.next {
+#next {
     right: 0;
 }
 
 .mySlides {
+    min-height: 100px;
+    margin-top: 50px;
     display: none;
     border: 1px solid black;
+}
+
+.text {
+    display: none;
 }
