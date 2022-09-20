@@ -31,7 +31,7 @@ function showSlides(n) {
 
     //Display block för den slide vars index är aktuellt (minus 1, pga att räkningen börjar med noll per auto?)
     mySlides[slideIndex - 1].style.display = 'block';
-    
+
     // console.log(numbertext)
     // console.log('slideIndex', slideIndex)
     // console.log('mySlides', mySlides[slideIndex - 1])
@@ -49,3 +49,29 @@ prev.addEventListener('click', function (e) {
     e.preventDefault();
     nextSlide(-1);
 })
+
+//Automatic slideshow
+let slideIndexAuto = 0;
+showSlidesAuto();
+
+function showSlidesAuto() {
+    for (let i = 0; i < mySlides.length; i++) {
+        mySlides[i].style.display = "none";
+    }
+    slideIndexAuto++;
+    if (slideIndexAuto > mySlides.length) {
+        slideIndexAuto = 1
+    }
+    mySlides[slideIndexAuto - 1].style.display = "block";
+    const timer = setTimeout(showSlidesAuto, 2000);
+
+    mySlides[slideIndexAuto-1].addEventListener('mouseenter', function() {
+        if (timer) {
+            clearTimeout(timer)
+        }
+    })
+
+    mySlides[slideIndexAuto-1].addEventListener('mouseleave', function() {
+        setTimeout(showSlidesAuto, 2000)
+    })
+}
