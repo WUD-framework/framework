@@ -1852,6 +1852,42 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
 
+.toast {
+  border: 1px solid black;
+  max-width: 350px;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.toast-header {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+}
+
+.toast-content {
+  background-color: rgba(101, 110, 110, 0.5);
+  padding: 10px 5px 5px 5px;
+  max-width: 100%;
+  border-radius: 0 0 5px 5px;
+}
+
+.section-1 {
+  flex: 1;
+}
+
+.toast-close {
+  background: none;
+  border: none;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
