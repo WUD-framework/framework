@@ -1,5 +1,5 @@
-const slideshowContainer = document.getElementById('slideshow-container');
-const numbertext = document.getElementsByClassName('numbertext')
+// const slideshowContainer = document.getElementById('slideshow-container');
+// const numbertext = document.getElementsByClassName('numbertext')
 const mySlides = document.getElementsByClassName('mySlides');
 const next = document.getElementById('next');
 const prev = document.getElementById('prev');
@@ -31,12 +31,12 @@ function showSlides(n) {
 
     //Display block för den slide vars index är aktuellt (minus 1, pga att räkningen börjar med noll per auto?)
     mySlides[slideIndex - 1].style.display = 'block';
-    numbertext.textContent = 'test'
-
-    console.log('slideIndex', slideIndex)
-    console.log('mySlides', mySlides[slideIndex - 1])
-    console.log('n', n)
-    console.log(slideIndex, '/', mySlides.length)
+    
+    // console.log(numbertext)
+    // console.log('slideIndex', slideIndex)
+    // console.log('mySlides', mySlides[slideIndex - 1])
+    // console.log('n', n)
+    // console.log(slideIndex, '/', mySlides.length)
 
 }
 
