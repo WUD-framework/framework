@@ -5,431 +5,515 @@
 }
 
 .col-1 {
-  flex-basis: 8.3333333333%;
+  -ms-flex-preferred-size: 8.33333%;
+      flex-basis: 8.33333%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-2 {
-  flex-basis: 16.6666666667%;
+  -ms-flex-preferred-size: 16.66667%;
+      flex-basis: 16.66667%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-3 {
-  flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-4 {
-  flex-basis: 33.3333333333%;
+  -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-5 {
-  flex-basis: 41.6666666667%;
+  -ms-flex-preferred-size: 41.66667%;
+      flex-basis: 41.66667%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-6 {
-  flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-7 {
-  flex-basis: 58.3333333333%;
+  -ms-flex-preferred-size: 58.33333%;
+      flex-basis: 58.33333%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-8 {
-  flex-basis: 66.6666666667%;
+  -ms-flex-preferred-size: 66.66667%;
+      flex-basis: 66.66667%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-9 {
-  flex-basis: 75%;
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-10 {
-  flex-basis: 83.3333333333%;
+  -ms-flex-preferred-size: 83.33333%;
+      flex-basis: 83.33333%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-11 {
-  flex-basis: 91.6666666667%;
+  -ms-flex-preferred-size: 91.66667%;
+      flex-basis: 91.66667%;
   padding: 1rem;
   border: 1px solid;
 }
 
 .col-12 {
-  flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   padding: 1rem;
   border: 1px solid;
 }
 
 @media (min-width: 576px) {
   .col-small-1 {
-    flex-basis: 8.3333333333%;
+    -ms-flex-preferred-size: 8.33333%;
+        flex-basis: 8.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-2 {
-    flex-basis: 16.6666666667%;
+    -ms-flex-preferred-size: 16.66667%;
+        flex-basis: 16.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-3 {
-    flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-4 {
-    flex-basis: 33.3333333333%;
+    -ms-flex-preferred-size: 33.33333%;
+        flex-basis: 33.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-5 {
-    flex-basis: 41.6666666667%;
+    -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-6 {
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-7 {
-    flex-basis: 58.3333333333%;
+    -ms-flex-preferred-size: 58.33333%;
+        flex-basis: 58.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-8 {
-    flex-basis: 66.6666666667%;
+    -ms-flex-preferred-size: 66.66667%;
+        flex-basis: 66.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-9 {
-    flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-10 {
-    flex-basis: 83.3333333333%;
+    -ms-flex-preferred-size: 83.33333%;
+        flex-basis: 83.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-11 {
-    flex-basis: 91.6666666667%;
+    -ms-flex-preferred-size: 91.66667%;
+        flex-basis: 91.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-small-12 {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
   }
 }
+
 @media (min-width: 768px) {
   .col-medium-1 {
-    flex-basis: 8.3333333333%;
+    -ms-flex-preferred-size: 8.33333%;
+        flex-basis: 8.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-2 {
-    flex-basis: 16.6666666667%;
+    -ms-flex-preferred-size: 16.66667%;
+        flex-basis: 16.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-3 {
-    flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-4 {
-    flex-basis: 33.3333333333%;
+    -ms-flex-preferred-size: 33.33333%;
+        flex-basis: 33.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-5 {
-    flex-basis: 41.6666666667%;
+    -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-6 {
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-7 {
-    flex-basis: 58.3333333333%;
+    -ms-flex-preferred-size: 58.33333%;
+        flex-basis: 58.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-8 {
-    flex-basis: 66.6666666667%;
+    -ms-flex-preferred-size: 66.66667%;
+        flex-basis: 66.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-9 {
-    flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-10 {
-    flex-basis: 83.3333333333%;
+    -ms-flex-preferred-size: 83.33333%;
+        flex-basis: 83.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-11 {
-    flex-basis: 91.6666666667%;
+    -ms-flex-preferred-size: 91.66667%;
+        flex-basis: 91.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-medium-12 {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
   }
 }
+
 @media (min-width: 992px) {
   .col-large-1 {
-    flex-basis: 8.3333333333%;
+    -ms-flex-preferred-size: 8.33333%;
+        flex-basis: 8.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-2 {
-    flex-basis: 16.6666666667%;
+    -ms-flex-preferred-size: 16.66667%;
+        flex-basis: 16.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-3 {
-    flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-4 {
-    flex-basis: 33.3333333333%;
+    -ms-flex-preferred-size: 33.33333%;
+        flex-basis: 33.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-5 {
-    flex-basis: 41.6666666667%;
+    -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-6 {
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-7 {
-    flex-basis: 58.3333333333%;
+    -ms-flex-preferred-size: 58.33333%;
+        flex-basis: 58.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-8 {
-    flex-basis: 66.6666666667%;
+    -ms-flex-preferred-size: 66.66667%;
+        flex-basis: 66.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-9 {
-    flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-10 {
-    flex-basis: 83.3333333333%;
+    -ms-flex-preferred-size: 83.33333%;
+        flex-basis: 83.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-11 {
-    flex-basis: 91.6666666667%;
+    -ms-flex-preferred-size: 91.66667%;
+        flex-basis: 91.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-large-12 {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
   }
 }
+
 @media (min-width: 1200px) {
   .col-xlarge-1 {
-    flex-basis: 8.3333333333%;
+    -ms-flex-preferred-size: 8.33333%;
+        flex-basis: 8.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-2 {
-    flex-basis: 16.6666666667%;
+    -ms-flex-preferred-size: 16.66667%;
+        flex-basis: 16.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-3 {
-    flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-4 {
-    flex-basis: 33.3333333333%;
+    -ms-flex-preferred-size: 33.33333%;
+        flex-basis: 33.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-5 {
-    flex-basis: 41.6666666667%;
+    -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-6 {
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-7 {
-    flex-basis: 58.3333333333%;
+    -ms-flex-preferred-size: 58.33333%;
+        flex-basis: 58.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-8 {
-    flex-basis: 66.6666666667%;
+    -ms-flex-preferred-size: 66.66667%;
+        flex-basis: 66.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-9 {
-    flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-10 {
-    flex-basis: 83.3333333333%;
+    -ms-flex-preferred-size: 83.33333%;
+        flex-basis: 83.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-11 {
-    flex-basis: 91.6666666667%;
+    -ms-flex-preferred-size: 91.66667%;
+        flex-basis: 91.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-xlarge-12 {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
   }
 }
+
 @media (min-width: 4000px) {
   .col-stupid-show-off-1 {
-    flex-basis: 8.3333333333%;
+    -ms-flex-preferred-size: 8.33333%;
+        flex-basis: 8.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-2 {
-    flex-basis: 16.6666666667%;
+    -ms-flex-preferred-size: 16.66667%;
+        flex-basis: 16.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-3 {
-    flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-4 {
-    flex-basis: 33.3333333333%;
+    -ms-flex-preferred-size: 33.33333%;
+        flex-basis: 33.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-5 {
-    flex-basis: 41.6666666667%;
+    -ms-flex-preferred-size: 41.66667%;
+        flex-basis: 41.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-6 {
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-7 {
-    flex-basis: 58.3333333333%;
+    -ms-flex-preferred-size: 58.33333%;
+        flex-basis: 58.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-8 {
-    flex-basis: 66.6666666667%;
+    -ms-flex-preferred-size: 66.66667%;
+        flex-basis: 66.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-9 {
-    flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-10 {
-    flex-basis: 83.3333333333%;
+    -ms-flex-preferred-size: 83.33333%;
+        flex-basis: 83.33333%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-11 {
-    flex-basis: 91.6666666667%;
+    -ms-flex-preferred-size: 91.66667%;
+        flex-basis: 91.66667%;
     padding: 1rem;
     border: 1px solid;
   }
   .col-stupid-show-off-12 {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
   }
 }
+
 .col-1-calendar {
-  flex-basis: 14.2857142857%;
+  -ms-flex-preferred-size: 14.28571%;
+      flex-basis: 14.28571%;
   padding: 1rem;
   border: 1px solid;
   height: 8rem;
 }
 
 .col-2-calendar {
-  flex-basis: 28.5714285714%;
+  -ms-flex-preferred-size: 28.57143%;
+      flex-basis: 28.57143%;
   padding: 1rem;
   border: 1px solid;
   height: 8rem;
 }
 
 .col-3-calendar {
-  flex-basis: 42.8571428571%;
+  -ms-flex-preferred-size: 42.85714%;
+      flex-basis: 42.85714%;
   padding: 1rem;
   border: 1px solid;
   height: 8rem;
 }
 
 .col-4-calendar {
-  flex-basis: 57.1428571429%;
+  -ms-flex-preferred-size: 57.14286%;
+      flex-basis: 57.14286%;
   padding: 1rem;
   border: 1px solid;
   height: 8rem;
 }
 
 .col-5-calendar {
-  flex-basis: 71.4285714286%;
+  -ms-flex-preferred-size: 71.42857%;
+      flex-basis: 71.42857%;
   padding: 1rem;
   border: 1px solid;
   height: 8rem;
 }
 
 .col-6-calendar {
-  flex-basis: 85.7142857143%;
+  -ms-flex-preferred-size: 85.71429%;
+      flex-basis: 85.71429%;
   padding: 1rem;
   border: 1px solid;
   height: 8rem;
 }
 
 .col-7-calendar {
-  flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   padding: 1rem;
   border: 1px solid;
   height: 8rem;
@@ -437,224 +521,264 @@
 
 @media (min-width: 576px) {
   .col-small-1-calendar {
-    flex-basis: 14.2857142857%;
+    -ms-flex-preferred-size: 14.28571%;
+        flex-basis: 14.28571%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-small-2-calendar {
-    flex-basis: 28.5714285714%;
+    -ms-flex-preferred-size: 28.57143%;
+        flex-basis: 28.57143%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-small-3-calendar {
-    flex-basis: 42.8571428571%;
+    -ms-flex-preferred-size: 42.85714%;
+        flex-basis: 42.85714%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-small-4-calendar {
-    flex-basis: 57.1428571429%;
+    -ms-flex-preferred-size: 57.14286%;
+        flex-basis: 57.14286%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-small-5-calendar {
-    flex-basis: 71.4285714286%;
+    -ms-flex-preferred-size: 71.42857%;
+        flex-basis: 71.42857%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-small-6-calendar {
-    flex-basis: 85.7142857143%;
+    -ms-flex-preferred-size: 85.71429%;
+        flex-basis: 85.71429%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-small-7-calendar {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
 }
+
 @media (min-width: 768px) {
   .col-medium-1-calendar {
-    flex-basis: 14.2857142857%;
+    -ms-flex-preferred-size: 14.28571%;
+        flex-basis: 14.28571%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-medium-2-calendar {
-    flex-basis: 28.5714285714%;
+    -ms-flex-preferred-size: 28.57143%;
+        flex-basis: 28.57143%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-medium-3-calendar {
-    flex-basis: 42.8571428571%;
+    -ms-flex-preferred-size: 42.85714%;
+        flex-basis: 42.85714%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-medium-4-calendar {
-    flex-basis: 57.1428571429%;
+    -ms-flex-preferred-size: 57.14286%;
+        flex-basis: 57.14286%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-medium-5-calendar {
-    flex-basis: 71.4285714286%;
+    -ms-flex-preferred-size: 71.42857%;
+        flex-basis: 71.42857%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-medium-6-calendar {
-    flex-basis: 85.7142857143%;
+    -ms-flex-preferred-size: 85.71429%;
+        flex-basis: 85.71429%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-medium-7-calendar {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
 }
+
 @media (min-width: 992px) {
   .col-large-1-calendar {
-    flex-basis: 14.2857142857%;
+    -ms-flex-preferred-size: 14.28571%;
+        flex-basis: 14.28571%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-large-2-calendar {
-    flex-basis: 28.5714285714%;
+    -ms-flex-preferred-size: 28.57143%;
+        flex-basis: 28.57143%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-large-3-calendar {
-    flex-basis: 42.8571428571%;
+    -ms-flex-preferred-size: 42.85714%;
+        flex-basis: 42.85714%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-large-4-calendar {
-    flex-basis: 57.1428571429%;
+    -ms-flex-preferred-size: 57.14286%;
+        flex-basis: 57.14286%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-large-5-calendar {
-    flex-basis: 71.4285714286%;
+    -ms-flex-preferred-size: 71.42857%;
+        flex-basis: 71.42857%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-large-6-calendar {
-    flex-basis: 85.7142857143%;
+    -ms-flex-preferred-size: 85.71429%;
+        flex-basis: 85.71429%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-large-7-calendar {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
 }
+
 @media (min-width: 1200px) {
   .col-xlarge-1-calendar {
-    flex-basis: 14.2857142857%;
+    -ms-flex-preferred-size: 14.28571%;
+        flex-basis: 14.28571%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-xlarge-2-calendar {
-    flex-basis: 28.5714285714%;
+    -ms-flex-preferred-size: 28.57143%;
+        flex-basis: 28.57143%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-xlarge-3-calendar {
-    flex-basis: 42.8571428571%;
+    -ms-flex-preferred-size: 42.85714%;
+        flex-basis: 42.85714%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-xlarge-4-calendar {
-    flex-basis: 57.1428571429%;
+    -ms-flex-preferred-size: 57.14286%;
+        flex-basis: 57.14286%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-xlarge-5-calendar {
-    flex-basis: 71.4285714286%;
+    -ms-flex-preferred-size: 71.42857%;
+        flex-basis: 71.42857%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-xlarge-6-calendar {
-    flex-basis: 85.7142857143%;
+    -ms-flex-preferred-size: 85.71429%;
+        flex-basis: 85.71429%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-xlarge-7-calendar {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
 }
+
 @media (min-width: 4000px) {
   .col-stupid-show-off-1-calendar {
-    flex-basis: 14.2857142857%;
+    -ms-flex-preferred-size: 14.28571%;
+        flex-basis: 14.28571%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-stupid-show-off-2-calendar {
-    flex-basis: 28.5714285714%;
+    -ms-flex-preferred-size: 28.57143%;
+        flex-basis: 28.57143%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-stupid-show-off-3-calendar {
-    flex-basis: 42.8571428571%;
+    -ms-flex-preferred-size: 42.85714%;
+        flex-basis: 42.85714%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-stupid-show-off-4-calendar {
-    flex-basis: 57.1428571429%;
+    -ms-flex-preferred-size: 57.14286%;
+        flex-basis: 57.14286%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-stupid-show-off-5-calendar {
-    flex-basis: 71.4285714286%;
+    -ms-flex-preferred-size: 71.42857%;
+        flex-basis: 71.42857%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-stupid-show-off-6-calendar {
-    flex-basis: 85.7142857143%;
+    -ms-flex-preferred-size: 85.71429%;
+        flex-basis: 85.71429%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
   .col-stupid-show-off-7-calendar {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding: 1rem;
     border: 1px solid;
     height: 8rem;
   }
 }
+
 .btn {
   padding: 1rem 2rem;
   border-radius: 0.5rem;
@@ -1853,8 +1977,10 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -1889,9 +2015,13 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -1899,8 +2029,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -1917,9 +2049,13 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -1937,8 +2073,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -1988,10 +2126,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -1999,7 +2141,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -2008,7 +2151,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -2016,9 +2160,9 @@ select { /* 1 */
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -2026,9 +2170,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -2037,9 +2181,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -2057,12 +2201,19 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -2083,17 +2234,20 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -2101,15 +2255,17 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -2118,8 +2274,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -2157,11 +2315,12 @@ template {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -2180,6 +2339,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
+
 .container-fluid {
   width: 100%;
   padding: 1rem;
@@ -2189,8 +2349,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .row {
   background-color: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   margin: 0;
 }
@@ -2218,20 +2381,35 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--white);
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   z-index: 5;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
+
 .navigation.active {
   left: 0;
 }
+
 .navigation li {
   list-style: none;
 }
+
 .navigation li a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   margin: 5px 0;
   font-size: 1.35em;
@@ -2240,23 +2418,38 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 20px;
   border-radius: 40px;
 }
+
 .navigation li a:hover {
   background: var(--black);
   color: var(--white);
 }
 
 .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
 }
+
 .nav-bar ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .nav-bar ul li {
   margin-right: 2rem;
 }
@@ -2265,19 +2458,28 @@ main {
   position: relative;
   width: 100%;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 main video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: 1;
 }
+
 main .mask {
   position: absolute;
   top: 0;
@@ -2286,8 +2488,12 @@ main .mask {
   height: 100%;
   z-index: 2;
   mix-blend-mode: screen;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
+
 main h2 {
   position: relative;
   z-index: 3;
@@ -2295,38 +2501,57 @@ main h2 {
   color: white;
   text-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
 }
+
 main .copyrights {
   position: absolute;
-  bottom: 30px; /* Mobile */
-  left: 20px; /* Mobile */
+  bottom: 30px;
+  /* Mobile */
+  left: 20px;
+  /* Mobile */
   z-index: 4;
   font-weight: 500;
   font-size: 1.2em;
   color: var(--black);
 }
+
 @media (min-width: 600px) {
   main .copyrights {
-    left: 100px; /* Desktop */
-    bottom: 40px; /* Desktop */
+    left: 100px;
+    /* Desktop */
+    bottom: 40px;
+    /* Desktop */
   }
 }
+
 main .social-links {
   position: absolute;
-  right: 20px; /* Mobile */
-  bottom: 20px; /* Mobile */
+  right: 20px;
+  /* Mobile */
+  bottom: 20px;
+  /* Mobile */
   z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 @media (min-width: 600px) {
   main .social-links {
-    right: 100px; /* Desktop */
-    bottom: 40px; /* Desktop */
+    right: 100px;
+    /* Desktop */
+    bottom: 40px;
+    /* Desktop */
   }
 }
+
 main .social-links li {
   list-style: none;
 }
+
 main .social-links li a {
   text-decoration: none;
   font-size: 1.75em;
@@ -2345,8 +2570,11 @@ main .social-links li a {
 
 .filters ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .filters ul li {
   padding: 2rem;
 }
@@ -2357,4 +2585,5 @@ img {
 
 h1 {
   font-size: 2rem;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
