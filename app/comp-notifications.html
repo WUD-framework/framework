@@ -10,45 +10,85 @@
 </head>
 
 <body>
-    <div class="toast">
-        <div class="toast-header">
+
+    <h2>Notification</h2>
+    <div class="noti">
+        <div class="noti-header">
             <div class="section-1">
-                <img src="#" class="toast-logo" alt=".">
-            <strong class="toast-location">ETT</strong>
+                <img src="#" class="noti-logo" alt=".">
+            <strong class="noti-location">NOTIFICATION</strong>
             </div>
             <div class="section-2">
-                <small>10 years ago</small>
-            <button class="toast-close" onclick="closeToast()">
+                <small>3 min ago</small>
+            <button class="noti-close" onclick="closeNoti()">
                 &times;
             </button>
             </div>
         </div>
-        <div class="toast-content">
-            <p>Lorem and what not</p>
+        <div class="noti-content">
+            <p>Lorem ipsum.</p>
+        </div>
+    </div>
+
+    <h2>Toasts</h2>
+    <h4>*Here I would like to use our theme colors. How? Circles should be borders but I need color variables first*</h4>
+    <div class="toast">
+        <div class="label info"></div>
+        <div class="two">
+            <div class="toast-type info">&#8505;</div>
+            <div class="toast-info">This is a info toast</div>
+        </div>
+        <div class="three">
+            <button class="noti-close" onclick="closeToast()">
+                &times;
+            </button>
         </div>
     </div>
 
     <div class="toast">
-        <div class="toast-header">
-            <div class="section-1">
-                <img src="#" class="toast-logo" alt=".">
-            <strong class="toast-location">TVÅ</strong>
-            </div>
-            <div class="section-2">
-                <small>10 years ago</small>
-            <button class="toast-close" onclick="closeToast()">
+        <div class="label warning"></div>
+        <div class="two">
+            <div class="toast-type warning">&#33;</div>
+            <div class="toast-info">This is a warning toast</div>
+        </div>
+        <div class="three">
+            <button class="noti-close" onclick="closeToast()">
                 &times;
             </button>
-            </div>
-        </div>
-        <div class="toast-content">
-            <p>Ah men tja. Läget?</p>
         </div>
     </div>
 
-    
+    <div class="toast">
+        <div class="label error"></div>
+        <div class="two">
+            <div class="toast-type error">&times;</div>
+            <div class="toast-info">This is a error toast</div>
+        </div>
+        <div class="three">
+            <button class="noti-close" onclick="closeToast()">
+                &times;
+            </button>
+        </div>
+    </div>
+
+    <div class="toast">
+        <div class="label success"></div>
+        <div class="two">
+            <div class="toast-type success">&check;</div>
+            <div class="toast-info">This is a success toast</div>
+        </div>
+        <div class="three">
+            <button class="noti-close" onclick="closeToast()">
+                &times;
+            </button>
+        </div>
+    </div>
+
 
     <script>
+        function closeNoti() {
+            event.target.closest('.noti').remove();
+        }
         function closeToast() {
             event.target.closest('.toast').remove();
         }

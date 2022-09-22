@@ -1,0 +1,43 @@
+.toast {
+    border: 1px solid black;
+    max-width: 350px;
+    min-width: max-content;
+    height: 50px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.label {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}.toast-type {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+}.info {
+    background-color: blue;
+}.warning {
+    background-color: yellow;
+    color: black;
+}.error {
+    background-color: red;
+}.success {
+    background-color: green;
+}
+
+.three {
+    padding: 5px;
+}

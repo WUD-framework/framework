@@ -1852,7 +1852,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
 
-.toast {
+.noti {
   border: 1px solid black;
   max-width: 350px;
   min-width: -webkit-max-content;
@@ -1864,7 +1864,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-.toast-header {
+.noti-header {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 5px;
   max-width: 100%;
@@ -1872,7 +1872,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-.toast-content {
+.noti-content {
   background-color: rgba(206, 206, 206, 0.5);
   padding: 10px 5px 5px 5px;
   max-width: 100%;
@@ -1883,7 +1883,63 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1;
 }
 
-.toast-close {
+.toast {
+  border: 1px solid black;
+  max-width: 350px;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  height: 50px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.two {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+.toast-type {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 10rem;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+}
+
+.info {
+  background-color: blue;
+}
+
+.warning {
+  background-color: yellow;
+  color: black;
+}
+
+.error {
+  background-color: red;
+}
+
+.success {
+  background-color: green;
+}
+
+.three {
+  padding: 5px;
+}
+
+button {
   background: none;
   border: none;
 }
