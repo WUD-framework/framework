@@ -10,85 +10,131 @@
 </head>
 
 <body>
-
-    <h2>Notification</h2>
-    <div class="noti">
-        <div class="noti-header">
-            <div class="section-1">
-                <img src="#" class="noti-logo" alt=".">
-            <strong class="noti-location">NOTIFICATION</strong>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h2>LOGO</h2>
             </div>
-            <div class="section-2">
-                <small>3 min ago</small>
-            <button class="noti-close" onclick="closeNoti()">
-                &times;
-            </button>
+            <div class="col-8">
+                Navigation
             </div>
         </div>
-        <div class="noti-content">
-            <p>Lorem ipsum.</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="#">Customize</a></li>
+                    <li><a href="container-row-grid.html">Layout</a>
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Container</a></li>
+                            <li><a href="#">Row</a></li>
+                            <li><a href="#">Columns</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Content</a></li>
+                    <li><a href="#">Forms</a></li>
+                    <li><a href="#">Components</a>
+                        <ul>
+                            <li><a href="#">Hero Section</a></li>
+                            <li><a href="comp-notifications.html">Notifications / Alerts</a></li>
+                            <li><a href="#">Navigation</a></li>
+                            <li><a href="#">Accordions</a></li>
+                            <li><a href="#">Modal</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Helpers</a></li>
+                    <li><a href="#">Utilities</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <h2>Notification</h2>
+                <div class="noti">
+                    <div class="noti-header">
+                        <div class="section-1">
+                            <img src="#" class="noti-logo" alt=".">
+                            <strong class="noti-location">NOTIFICATION</strong>
+                        </div>
+                        <div class="section-2">
+                            <small>3 min ago</small>
+                            <button class="noti-close" onclick="closeNoti()">
+                                &times;
+                            </button>
+                        </div>
+                    </div>
+                    <div class="noti-content">
+                        <p>Lorem ipsum.</p>
+                    </div>
+                </div>
+
+                <h1>Toasts</h1>
+                <h4>*Here I would like to use our theme colors. How? Circles should be borders but I need color
+                    variables first*</h4>
+                <div class="toast">
+                    <div class="label bg-info"></div>
+                    <div class="two">
+                        <div class="toast-type bg-info">&#8505;</div>
+                        <div class="toast-info">This is a info toast</div>
+                    </div>
+                    <div class="three">
+                        <button class="noti-close" onclick="closeToast()">
+                            &times;
+                        </button>
+                    </div>
+                </div>
+
+                <div class="toast">
+                    <div class="label bg-warning border-radius"></div>
+                    <div class="two">
+                        <div class="toast-type bg-warning">&#33;</div>
+                        <div class="toast-info">This is a warning toast</div>
+                    </div>
+                    <div class="three">
+                        <button class="noti-close" onclick="closeToast()">
+                            &times;
+                        </button>
+                    </div>
+                </div>
+
+                <div class="toast danger border-radius">
+                    <div class="label"></div>
+                    <div class="two">
+                        <div class="toast-type">&times;</div>
+                        <div class="toast-info">This is a error toast</div>
+                    </div>
+                    <div class="three">
+                        <button class="noti-close" onclick="closeToast()">
+                            &times;
+                        </button>
+                    </div>
+                </div>
+
+                <div class="toast">
+                    <div class="label bg-success"></div>
+                    <div class="two">
+                        <div class="toast-type bg-success">&check;</div>
+                        <div class="toast-info">This is a success toast</div>
+                    </div>
+                    <div class="three">
+                        <button class="noti-close" onclick="closeToast()">
+                            &times;
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <h2>Toasts</h2>
-    <h4>*Here I would like to use our theme colors. How? Circles should be borders but I need color variables first*</h4>
-    <div class="toast">
-        <div class="label bg-info"></div>
-        <div class="two">
-            <div class="toast-type bg-info">&#8505;</div>
-            <div class="toast-info">This is a info toast</div>
-        </div>
-        <div class="three">
-            <button class="noti-close" onclick="closeToast()">
-                &times;
-            </button>
-        </div>
-    </div>
-
-    <div class="toast">
-        <div class="label bg-warning border-radius"></div>
-        <div class="two">
-            <div class="toast-type bg-warning">&#33;</div>
-            <div class="toast-info">This is a warning toast</div>
-        </div>
-        <div class="three">
-            <button class="noti-close" onclick="closeToast()">
-                &times;
-            </button>
-        </div>
-    </div>
-
-    <div class="toast danger border-radius">
-        <div class="label"></div>
-        <div class="two">
-            <div class="toast-type">&times;</div>
-            <div class="toast-info">This is a error toast</div>
-        </div>
-        <div class="three">
-            <button class="noti-close" onclick="closeToast()">
-                &times;
-            </button>
-        </div>
-    </div>
-
-    <div class="toast">
-        <div class="label bg-success"></div>
-        <div class="two">
-            <div class="toast-type bg-success">&check;</div>
-            <div class="toast-info">This is a success toast</div>
-        </div>
-        <div class="three">
-            <button class="noti-close" onclick="closeToast()">
-                &times;
-            </button>
-        </div>
-    </div>
 
 
     <script>
         function closeNoti() {
             event.target.closest('.noti').remove();
         }
+
         function closeToast() {
             event.target.closest('.toast').remove();
         }
