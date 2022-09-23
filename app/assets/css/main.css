@@ -1909,11 +1909,36 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #dd1536;
   color: #dd1536;
 }
+.toast.info .label {
+  background-color: #38a5f8;
+}
+.toast.info .toast-type {
+  background-color: transparent;
+  border: 1px solid #38a5f8;
+  color: #38a5f8;
+}
+.toast.warning .label {
+  background-color: #f8b425;
+}
+.toast.warning .toast-type {
+  background-color: transparent;
+  border: 1px solid #f8b425;
+  color: #f8b425;
+}
+.toast.success .label {
+  background-color: #0bae67;
+}
+.toast.success .toast-type {
+  background-color: transparent;
+  border: 1px solid #0bae67;
+  color: #0bae67;
+}
 .toast .toast-type {
   display: flex;
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  margin-left: 10px;
   border-radius: 10rem;
   align-items: center;
   justify-content: center;
@@ -1922,7 +1947,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .toast .label {
   width: 25px;
-  margin-right: 10px;
 }
 
 .two {

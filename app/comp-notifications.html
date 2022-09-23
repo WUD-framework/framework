@@ -32,33 +32,7 @@
 
     <h2>Toasts</h2>
     <h4>*Here I would like to use our theme colors. How? Circles should be borders but I need color variables first*</h4>
-    <div class="toast">
-        <div class="label bg-info"></div>
-        <div class="two">
-            <div class="toast-type bg-info">&#8505;</div>
-            <div class="toast-info">This is a info toast</div>
-        </div>
-        <div class="three">
-            <button class="noti-close" onclick="closeToast()">
-                &times;
-            </button>
-        </div>
-    </div>
-
-    <div class="toast">
-        <div class="label bg-warning border-radius"></div>
-        <div class="two">
-            <div class="toast-type bg-warning">&#33;</div>
-            <div class="toast-info">This is a warning toast</div>
-        </div>
-        <div class="three">
-            <button class="noti-close" onclick="closeToast()">
-                &times;
-            </button>
-        </div>
-    </div>
-
-    <div class="toast danger border-radius">
+    <div class="toast info">
         <div class="label"></div>
         <div class="two">
             <div class="toast-type">&times;</div>
@@ -71,10 +45,36 @@
         </div>
     </div>
 
-    <div class="toast">
-        <div class="label bg-success"></div>
+    <div class="toast warning">
+        <div class="label"></div>
         <div class="two">
-            <div class="toast-type bg-success">&check;</div>
+            <div class="toast-type">&#33;</div>
+            <div class="toast-info">This is a warning toast</div>
+        </div>
+        <div class="three">
+            <button class="noti-close" onclick="closeToast()">
+                &times;
+            </button>
+        </div>
+    </div>
+
+    <div class="toast danger">
+        <div class="label"></div>
+        <div class="two">
+            <div class="toast-type">&times;</div>
+            <div class="toast-info">This is a error toast</div>
+        </div>
+        <div class="three">
+            <button class="noti-close" onclick="closeToast()">
+                &times;
+            </button>
+        </div>
+    </div>
+
+    <div class="toast success border-radius">
+        <div class="label"></div>
+        <div class="two">
+            <div class="toast-type">&check;</div>
             <div class="toast-info">This is a success toast</div>
         </div>
         <div class="three">
@@ -83,6 +83,8 @@
             </button>
         </div>
     </div>
+
+    <h2>Alerts</h2>
 
 
     <script>

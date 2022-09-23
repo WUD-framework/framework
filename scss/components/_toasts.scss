@@ -8,6 +8,7 @@
     display: flex;
     margin-bottom: 10px;
 
+    // Loop this, mkay?
     &.danger {
 
         .label {
@@ -21,11 +22,51 @@
         }
     }
 
+    &.info {
+
+        .label {
+            background-color: map.get($theme-colors, "info");
+        }
+
+        .toast-type {
+            background-color: transparent;
+            border: $base-border-thickness solid map.get($theme-colors, "info");
+            color: map.get($theme-colors, "info");
+        }
+    }
+
+    &.warning {
+
+        .label {
+            background-color: map.get($theme-colors, "warning");
+        }
+
+        .toast-type {
+            background-color: transparent;
+            border: $base-border-thickness solid map.get($theme-colors, "warning");
+            color: map.get($theme-colors, "warning");
+        }
+    }
+
+    &.success {
+
+        .label {
+            background-color: map.get($theme-colors, "success");
+        }
+
+        .toast-type {
+            background-color: transparent;
+            border: $base-border-thickness solid map.get($theme-colors, "success");
+            color: map.get($theme-colors, "success");
+        }
+    }
+
     .toast-type {
         display: flex;
         width: 30px;
         height: 30px;
         margin-right: 10px;
+        margin-left: 10px;
         border-radius: 10rem;
         align-items: center;
         justify-content: center;
@@ -37,7 +78,6 @@
 
     .label {
         width: 25px;
-        margin-right: 10px;
     }
 }
 
