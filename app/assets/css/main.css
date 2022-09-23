@@ -358,6 +358,19 @@
   margin-bottom: 1rem;
 }
 
+.btn-pill-light {
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #fff;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 12rem;
+}
+
 .btn-outlined-light {
   padding: 1.125rem 2rem;
   border-radius: 0.5rem;
@@ -381,6 +394,19 @@
   background-color: black;
   color: white;
   margin-bottom: 1rem;
+}
+
+.btn-pill-dark {
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 12rem;
 }
 
 .btn-outlined-dark {
@@ -408,6 +434,19 @@
   margin-bottom: 1rem;
 }
 
+.btn-pill-base {
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #1c1c1c;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 12rem;
+}
+
 .btn-outlined-base {
   padding: 1.125rem 2rem;
   border-radius: 0.5rem;
@@ -431,6 +470,19 @@
   background-color: #626ed4;
   color: white;
   margin-bottom: 1rem;
+}
+
+.btn-pill-primary {
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #626ed4;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 12rem;
 }
 
 .btn-outlined-primary {
@@ -458,6 +510,19 @@
   margin-bottom: 1rem;
 }
 
+.btn-pill-secondary {
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #ee4266;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 12rem;
+}
+
 .btn-outlined-secondary {
   padding: 1.125rem 2rem;
   border-radius: 0.5rem;
@@ -481,6 +546,19 @@
   background-color: #0bae67;
   color: white;
   margin-bottom: 1rem;
+}
+
+.btn-pill-success {
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #0bae67;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 12rem;
 }
 
 .btn-outlined-success {
@@ -508,6 +586,19 @@
   margin-bottom: 1rem;
 }
 
+.btn-pill-danger {
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #dd1536;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 12rem;
+}
+
 .btn-outlined-danger {
   padding: 1.125rem 2rem;
   border-radius: 0.5rem;
@@ -533,6 +624,19 @@
   margin-bottom: 1rem;
 }
 
+.btn-pill-warning {
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #f8b425;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 12rem;
+}
+
 .btn-outlined-warning {
   padding: 1.125rem 2rem;
   border-radius: 0.5rem;
@@ -556,6 +660,19 @@
   background-color: #38a5f8;
   color: white;
   margin-bottom: 1rem;
+}
+
+.btn-pill-info {
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #38a5f8;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 12rem;
 }
 
 .btn-outlined-info {

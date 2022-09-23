@@ -20,8 +20,16 @@
 
   }
 
+  .btn-pill-#{$key} {
+    @include btn($val, white);
+    border-radius: 12rem;
+
+  }
+
   .btn-outlined-#{$key} {
     @include btn(white, $val);
     border: $base-border-thickness solid $val;
   }
+
+  
 }
