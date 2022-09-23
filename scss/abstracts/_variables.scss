@@ -5,8 +5,8 @@
 
 // SASS MAP
 $theme-colors: (
-  "white": #fff,
-  "black": black,
+  "light": #fff,
+  "dark": black,
   "base": #1c1c1c,
   "primary": #626ed4,
   "secondary": #ee4266,
@@ -14,7 +14,6 @@ $theme-colors: (
   "danger": #dd1536,
   "warning": #f8b425,
   "info": #38a5f8,
-  "johannes": teal
 ) !default;
 
 
