@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "ionicons": "^6.0.3"
   }
 }
