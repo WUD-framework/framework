@@ -363,7 +363,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
 }
@@ -386,7 +386,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: black;
   border: 1px solid black;
 }
@@ -409,7 +409,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: #1c1c1c;
   border: 1px solid #1c1c1c;
 }
@@ -432,7 +432,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: #626ed4;
   border: 1px solid #626ed4;
 }
@@ -455,7 +455,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: #ee4266;
   border: 1px solid #ee4266;
 }
@@ -478,7 +478,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: #0bae67;
   border: 1px solid #0bae67;
 }
@@ -501,7 +501,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: #dd1536;
   border: 1px solid #dd1536;
 }
@@ -524,7 +524,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: #f8b425;
   border: 1px solid #f8b425;
 }
@@ -547,7 +547,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: #38a5f8;
   border: 1px solid #38a5f8;
 }
@@ -570,7 +570,7 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   color: teal;
   border: 1px solid teal;
 }

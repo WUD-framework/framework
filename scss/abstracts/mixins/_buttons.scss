@@ -20,7 +20,7 @@
   }
 
   .btn-outlined-#{$key} {
-    @include btn(white, $val);
+    @include btn(transparent, $val);
     border: $base-border-thickness solid $val;
   }
 }
