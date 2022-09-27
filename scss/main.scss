@@ -11,6 +11,7 @@
 @import "base/typography";
 
 // COMPONENTS 
+@import "components/comp-progress-bar";
 
 // LAYOUTS
 @import "layout/grid";
@@ -25,6 +26,6 @@
 //@import "themes/dark-theme";   
 
 // VENDOR
-@import "vendor/node_modules/animate.css/animate.min";
+// @import "vendor/node_modules/animate.css/animate.min.css";
 
 

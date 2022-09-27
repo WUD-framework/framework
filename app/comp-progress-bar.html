@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.min.css">
+  <title>Progress-Bar</title>
+</head>
+
+<body>
+
+  <div id="container">
+    <input type="checkbox" id="water" />
+    <label for="water">
+      <div id="fill"></div>
+    </label>
+    <span>Progress</span>
+    <span id="progress">0%</span>
+
+    <input type="checkbox" id="water" />
+    <label for="water">
+      <div id="fill"></div>
+    </label>
+    <span>Progress</span>
+    <span id="progress">0%</span>
+  </div>
+  
+  
+
+  <script>
+    window.onload = function(){
+        var elm = document.querySelector('#progress');
+        setInterval(function(){
+          if(!elm.innerHTML.match(/100%/gi)){
+            elm.innerHTML = (parseInt(elm.innerHTML) + 1) + '%';
+          } else {
+            clearInterval();
+          }
+        }, 18)
+      }
+      </script>
+
+</body>
+
+</html>
