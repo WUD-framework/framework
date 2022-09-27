@@ -5,6 +5,49 @@
     overflow: hidden;
     position: relative;
     margin: auto;
+    
+    &.border-radius {
+    border-radius: $base-border-radius * 2;
+}
+
+&.circle-pag {
+    li {
+        height: .5rem;
+        width: .5rem;
+        background-color: rgba($color: white, $alpha: 0.4);
+        margin: 0 .25rem;
+        border-radius: 50%;
+        transition: all 0.5s ease-in-out;
+
+        &.active {
+            background-color: rgba($color: white, $alpha: 1.0);
+        }
+
+        &:hover {
+            background-color: rgba($color: white, $alpha: 1.0);
+        }
+    }
+}
+
+&.pag-left {
+    #carousel-pag {
+    left: 3rem;
+    transform: none;
+}
+}
+
+&.pag-right {
+    #carousel-pag {
+        right: 3rem;
+        transform: none;
+    }
+}
+
+&.no-pag {
+    #carousel-pag {
+        display: none;
+    }
+}
 }
 
 .mySlides {
@@ -32,6 +75,12 @@ img {
     top: 50%;
     transform: translateY(-50%);
     width: auto;
+    color: rgba($color: white, $alpha: 0.5);
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        color: rgba($color: white, $alpha: 1.0);
+    }
 }
 
 #prev {
@@ -40,8 +89,6 @@ img {
 
 #next {
     right: 2rem;
-<<<<<<< HEAD
-=======
 }
 
 #carousel-pag {
@@ -51,19 +98,25 @@ img {
     transform: translateX(-50%);
     list-style: none;
     display: flex;
+    padding-inline-start: 0;
+    -webkit-padding-start: 0;
 
     li {
-        height: .25rem;
+        height: .2rem;
         width: 2.5rem;
         background-color: rgba($color: white, $alpha: 0.4);
         margin: 0 .25rem;
-        border-radius: 1px;
+        border-radius: 2px;
+        transition: all 0.5s ease-in-out;
 
         &.active {
             background-color: rgba($color: white, $alpha: 1.0);
         }
+
+        &:hover {
+            background-color: rgba($color: white, $alpha: 1.0);
+        }
     }
->>>>>>> 3f4c33423fc82981c52e71c499031279e9a038b5
 }
 
 a {
