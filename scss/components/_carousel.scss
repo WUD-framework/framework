@@ -30,6 +30,7 @@ img {
     position: absolute;
     transform: translate(-50%);
     top: 50%;
+    transform: translateY(-50%);
     width: auto;
 }
 
@@ -39,6 +40,30 @@ img {
 
 #next {
     right: 2rem;
+<<<<<<< HEAD
+=======
+}
+
+#carousel-pag {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    display: flex;
+
+    li {
+        height: .25rem;
+        width: 2.5rem;
+        background-color: rgba($color: white, $alpha: 0.4);
+        margin: 0 .25rem;
+        border-radius: 1px;
+
+        &.active {
+            background-color: rgba($color: white, $alpha: 1.0);
+        }
+    }
+>>>>>>> 3f4c33423fc82981c52e71c499031279e9a038b5
 }
 
 a {
