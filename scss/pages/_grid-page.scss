@@ -1,0 +1,16 @@
+@use "sass:map";
+@use "sass:color";
+
+.show-columns {
+    padding: $base-padding;
+    margin-bottom: $base-padding * 3;
+    .row {
+        border: $base-border-thickness solid map-get($map: $theme-colors, $key: primary);  
+
+        & > * {
+            color: map-get($map: $theme-colors, $key: primary); 
+            background-color: color.adjust(map-get($map: $theme-colors, $key: secondary), $lightness: 25%);  
+            border: $base-border-thickness solid map-get($map: $theme-colors, $key: primary);  
+        } 
+    }
+}
