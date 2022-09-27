@@ -1,0 +1,44 @@
+@use "sass:map";
+
+.alert {
+    max-width: 350px;
+    min-width: max-content;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    &.info {
+        background-color: map.get($theme-colors, "info");
+    }
+
+    &.warning {
+        background-color: map.get($theme-colors, "warning");
+    }
+
+    &.danger {
+        background-color: map.get($theme-colors, "danger");
+    }
+
+    &.success {
+        background-color: map.get($theme-colors, "success");
+    }
+}
+
+.alert-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    text-align: center;
+}
+
+.button-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}

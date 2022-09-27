@@ -1,3 +1,5 @@
+@use "sass:map";
+
 .noti {
     border: 1px solid black;
     max-width: 350px;
@@ -7,7 +9,7 @@
     border-radius: 5px;
     margin-bottom: 10px;
 }.noti-header {
-    background-color:rgb(255, 255, 255, 0.7);
+    background-color: map.get($theme-colors, "primary");
     padding: 5px;
     max-width: 100%;
     border-radius: 5px 5px 0 0;
@@ -15,7 +17,7 @@
 }
 
 .noti-content {
-    background-color: rgba(206, 206, 206, 0.5);
+    background-color: map.get($theme-colors, "secondary");
     padding: 10px 5px 5px 5px;
     max-width: 100%;
     border-radius: 0 0 5px 5px;
