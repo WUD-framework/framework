@@ -1,6 +1,6 @@
 
 
-.slideshow-container {
+#slideshow-container {
     max-width: 500px;
     max-height: 250px;
     position: relative;
@@ -14,15 +14,12 @@
     display: none;  
 }
 
-// .mySlides:hover {
-//     transform: scale(3);
-// }
-
 img {
     width: 500px;
     height: 250px;
     object-fit: cover;
     object-position: center;
+    pointer-events: none;
 }
 
 #prev, #next {

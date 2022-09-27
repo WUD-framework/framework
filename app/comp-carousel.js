@@ -1,8 +1,9 @@
-// const slideshowContainer = document.getElementById('slideshow-container');
+const slideshowContainer = document.getElementById('slideshow-container');
 // const numbertext = document.getElementsByClassName('numbertext')
 const mySlides = document.getElementsByClassName('mySlides');
 const next = document.getElementById('next');
 const prev = document.getElementById('prev');
+// const img = document.getElementsByTagName('img');
 
 // Slideindex börjar på 1. Börja alltså med att visa slide 1
 let slideIndex = 1;
@@ -32,12 +33,6 @@ function showSlides(n) {
     //Display block för den slide vars index är aktuellt (minus 1, pga att räkningen börjar med noll per auto?)
     mySlides[slideIndex - 1].style.display = 'block';
 
-    // console.log(numbertext)
-    // console.log('slideIndex', slideIndex)
-    // console.log('mySlides', mySlides[slideIndex - 1])
-    // console.log('n', n)
-    // console.log(slideIndex, '/', mySlides.length)
-
 }
 
 //Eventlyssnare för knapparna. Skicka in om 1 skall läggas till eller tas bort. 
@@ -52,7 +47,9 @@ prev.addEventListener('click', function (e) {
 
 //Automatic slideshow
 let slideIndexAuto = 0;
+
 showSlidesAuto();
+
 
 function showSlidesAuto() {
     for (let i = 0; i < mySlides.length; i++) {
@@ -62,16 +59,40 @@ function showSlidesAuto() {
     if (slideIndexAuto > mySlides.length) {
         slideIndexAuto = 1
     }
-    mySlides[slideIndexAuto - 1].style.display = "block";
-    const timer = setTimeout(showSlidesAuto, 2000);
+    let currentSlide = mySlides[slideIndexAuto - 1]
+    currentSlide.style.display = "block";
 
-    mySlides[slideIndexAuto-1].addEventListener('mouseenter', function() {
-        if (timer) {
-            clearTimeout(timer)
-        }
-    })
-
-    mySlides[slideIndexAuto-1].addEventListener('mouseleave', function() {
-        setTimeout(showSlidesAuto, 2000)
-    })
 }
+
+//Found this online
+function RecurringTimer(callback, delay) {
+    var timerId, start, remaining = delay;
+
+    slideshowContainer.addEventListener('mouseenter', () => {
+        pause()
+    })
+
+    slideshowContainer.addEventListener('mouseleave', () => {
+        resume()
+    })
+
+    this.pause = function () {
+        window.clearTimeout(timerId);
+        remaining -= new Date() - start;
+    };
+
+    var resume = function () {
+        start = new Date();
+        timerId = window.setTimeout(function () {
+            remaining = delay;
+            resume();
+            callback();
+        }, remaining);
+    };
+
+    this.resume = resume;
+
+    this.resume();
+}
+
+RecurringTimer(showSlidesAuto, 2000)

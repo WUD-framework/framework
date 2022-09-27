@@ -2116,7 +2116,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
 
-.slideshow-container {
+#slideshow-container {
   max-width: 500px;
   max-height: 250px;
   position: relative;
@@ -2137,6 +2137,7 @@ img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  pointer-events: none;
 }
 
 #prev, #next {
