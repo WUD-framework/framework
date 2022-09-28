@@ -73,10 +73,12 @@
 
                 <h2>Toasts</h2>
 
-                <div class="toast info">
+                <p>Help classes: info, warning, danger, success, no-label</p>
+
+                <div class="toast info no-label">
                     <div class="label"></div>
                     <div class="two">
-                        <div class="toast-type">&times;</div>
+                        <div class="toast-type">i</div>
                         <div class="toast-info">This is a info toast</div>
                     </div>
                     <div class="three">
@@ -112,7 +114,7 @@
                     </div>
                 </div>
 
-                <div class="toast success">
+                <div class="toast success no-label box-shadow border-radius">
                     <div class="label"></div>
                     <div class="two">
                         <div class="toast-type">&check;</div>
@@ -130,49 +132,56 @@
 
                 <!-- ALERTS HERE -->
                 <h4>Standard alerts</h4>
+                <p>Help classes: info, warning, danger, success, border</p>
 
                 <div class="alert info">
-                    <div class="header">This is a info alert</div>
-                    <div class="alert-body">Here goes the description of the alert <hr>
-                        <div class="description">hej</div>
+                    <div class="header">This is a success alert
+                        <hr>
                     </div>
+                    <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
+                        nesciunt ratione aliquid quaerat vero nemo minus itaque expedita adipisci veniam.</div>
                 </div>
 
                 <div class="alert warning">
-                    <div class="header">This is a warning alert</div>
-                    <div class="alert-body">Here goes the description of the alert <hr>
-                        <div class="description">hej</div>
+                    <div class="header">This is a success alert
+                        <hr>
                     </div>
+                    <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
+                        nesciunt ratione aliquid quaerat vero nemo minus itaque expedita adipisci veniam.</div>
                 </div>
 
                 <div class="alert danger">
-                    <div class="header">This is a danger alert</div>
-                    <div class="alert-body">Here goes the description of the alert <hr>
-                        <div class="description">hej</div>
+                    <div class="header">This is a success alert
+                        <hr>
                     </div>
+                    <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
+                        nesciunt ratione aliquid quaerat vero nemo minus itaque expedita adipisci veniam.</div>
                 </div>
 
+
                 <div class="alert success">
-                    <div class="header">This is a success alert</div>
-                    <div class="alert-body">Here goes the description of the alert <hr>
-                        <div class="description">hej</div>
+                    <div class="header">This is a success alert
+                        <hr>
                     </div>
+                    <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
+                        nesciunt ratione aliquid quaerat vero nemo minus itaque expedita adipisci veniam.</div>
                 </div>
+
 
                 <h4>Confirmable alerts</h4>
 
-                <div class="alert info">
+                <div class="alert info border">
                     <div class="header">This is a info alert</div>
-                    <div class="body">Here goes the description of the alert</div>
+                    <div class="description">Here goes the description of the alert</div>
                     <div class="button-div">
                         <button>Confirm</button>
                         <button>Dismiss</button>
                     </div>
                 </div>
 
-                <div class="alert warning">
+                <div class="alert warning border">
                     <div class="header">This is a warning alert</div>
-                    <div class="body">Here goes the description of the alert</div>
+                    <div class="description">Here goes the description of the alert</div>
                     <div class="button-div">
                         <button>Confirm</button>
                         <button>Dismiss</button>
@@ -181,7 +190,7 @@
 
                 <div class="alert danger">
                     <div class="header">This is a danger alert</div>
-                    <div class="body">Here goes the description of the alert</div>
+                    <div class="description">Here goes the description of the alert</div>
                     <div class="button-div">
                         <button>Confirm</button>
                         <button type="button" class="alert-dismissible" data-dismiss="alert">Dismiss</button>
@@ -190,28 +199,28 @@
 
                 <div class="alert success">
                     <div class="header">This is a success alert</div>
-                    <div class="body">Here goes the description of the alert</div>
+                    <div class="description">Here goes the description of the alert</div>
                     <div class="button-div">
                         <button>Confirm</button>
                         <button>Dismiss</button>
                     </div>
                 </div>
-
-
             </div>
+        </div>
+    </div>
 
 
 
-            <script>
-                window.alert("tja")
-                function closeNoti() {
-                    event.target.closest('.noti').remove();
-                }
+    <script>
+        function closeNoti() {
+            event.target.closest('.noti').remove();
+        }
 
-                function closeToast() {
-                    event.target.closest('.toast').remove();
-                }
-            </script>
+        function closeToast() {
+            event.target.closest('.toast').remove();
+        }
+    </script>
+    </div>
 </body>
 
 </html>

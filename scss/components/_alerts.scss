@@ -13,27 +13,44 @@
 
     &.info {
         background-color: map.get($theme-colors, "info");
+        
+        &.border {
+            border: 5px solid map.get($theme-colors, "info");
+            background-color: white;
+        }
     }
 
     &.warning {
         background-color: map.get($theme-colors, "warning");
+
+        &.border {
+            border: 5px solid map.get($theme-colors, "warning");
+            background-color: white;
+        }
     }
 
     &.danger {
         background-color: map.get($theme-colors, "danger");
+        
+        &.border {
+            border: 5px solid map.get($theme-colors, "danger");
+            background-color: white;
+        }
     }
 
     &.success {
         background-color: map.get($theme-colors, "success");
+
+        &.border {
+            border: 5px solid map.get($theme-colors, "success");
+            background-color: white;
+        }
     }
 }
 
-.alert-body {
-    display: flex;
-    flex-direction: column;
-}
-
 .description {
+    display: flex;
+    max-width: fit-content;
     text-align: center;
 }
 

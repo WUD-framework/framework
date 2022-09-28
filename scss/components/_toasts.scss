@@ -1,12 +1,22 @@
 @use "sass:map";
+@use "sass:math";
 
 .toast {
-    border: 1px solid black;
     max-width: 350px;
     min-width: max-content;
     height: 50px;
     display: flex;
     margin-bottom: 10px;
+
+    &.border-radius {
+        border-radius: math.div($base-border-radius, 3);
+    }
+
+    &.no-label {
+        .label{
+            display: none;
+        }
+    }
 
     // Loop this, mkay?
     &.danger {
@@ -49,6 +59,8 @@
     }
 
     &.success {
+
+        border: $base-border-thickness solid map.get($theme-colors, "success");
 
         .label {
             background-color: map.get($theme-colors, "success");
@@ -94,4 +106,10 @@
 
 .three {
     padding: 5px;
+}
+
+
+// BOX-SHADOW
+.box-shadow{
+box-shadow: 0 4px 8px rgba($color: map.get($map: $theme-colors, $key: base), $alpha: .10);
 }
