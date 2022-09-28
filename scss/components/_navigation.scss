@@ -1,0 +1,25 @@
+nav {
+    background-color: blueviolet;
+    height: 4rem;
+}
+
+/* Align to left: justify-content: flex-start */
+/* Align to right: justify-content: flex-end */
+/* Align center: justify-content: center */
+ul {
+    display: flex;
+    justify-content: flex-start;
+
+    list-style: none;
+    margin: 0 2rem;
+}
+
+li {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
