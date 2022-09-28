@@ -1,9 +1,8 @@
 const slideshowContainer = document.getElementById('slideshow-container');
-// const numbertext = document.getElementsByClassName('numbertext')
 const mySlides = document.getElementsByClassName('mySlides');
 const next = document.getElementById('next');
 const prev = document.getElementById('prev');
-// const img = document.getElementsByTagName('img');
+const pag = document.getElementById('carousel-pag');
 
 // Slideindex börjar på 1. Börja alltså med att visa slide 1
 let slideIndex = 1;
@@ -14,8 +13,17 @@ function nextSlide(n) {
     showSlides(slideIndex += n);
 }
 
+//Create indicator dynamically
+function createPag() {
+    for (let i = 0; i < mySlides.length; i++) {
+        const liTag = document.createElement('li');
+        pag.appendChild(liTag)
+    }
+}
+createPag()
+
 function showSlides(n) {
-    // Om siffran som räknas är större än antalet slides (=3) så skall räkningen börjar om från slide 1 igen
+    // Om siffran som räknas är större än antalet slides så skall räkningen börjar om från slide 1 igen
     if (n > mySlides.length) {
         slideIndex = 1
     };
@@ -31,7 +39,7 @@ function showSlides(n) {
     }
 
     //Display block för den slide vars index är aktuellt (minus 1, pga att räkningen börjar med noll per auto?)
-    mySlides[slideIndex - 1].style.display = 'block';
+    mySlides[slideIndex - 1].style.display = 'block';  
 
 }
 
@@ -47,11 +55,12 @@ prev.addEventListener('click', function (e) {
 
 //Automatic slideshow
 let slideIndexAuto = 0;
-
 showSlidesAuto();
 
-
 function showSlidesAuto() {
+    //Get the indicator
+    let dots = document.querySelectorAll('li');
+
     for (let i = 0; i < mySlides.length; i++) {
         mySlides[i].style.display = "none";
     }
@@ -59,12 +68,19 @@ function showSlidesAuto() {
     if (slideIndexAuto > mySlides.length) {
         slideIndexAuto = 1
     }
-    let currentSlide = mySlides[slideIndexAuto - 1]
-    currentSlide.style.display = "block";
+    for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace("active", "")    
+    }
+
+    mySlides[slideIndexAuto - 1].style.display = "block";
+    dots[slideIndexAuto - 1].className += "active";
 
 }
 
-//Found this online
+//Found this online. Can't say that I completely understand it though
+
+//https://gist.github.com/ncou/3a0a1f89c8e22416d0d607f621a948a9
+
 function RecurringTimer(callback, delay) {
     var timerId, start, remaining = delay;
 
