@@ -13,6 +13,7 @@
 @import "base/typography";
 
 // COMPONENTS 
+@import "components/tables";
 
 // LAYOUTS
 @import "layout/grid";
@@ -27,7 +28,7 @@
 //@import "themes/dark-theme";   
 
 // VENDOR
-
+@import "vendor/node_modules/animate.css/animate.min";
 
 
 
