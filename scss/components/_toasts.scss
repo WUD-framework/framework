@@ -10,6 +10,10 @@
 
     &.border-radius {
         border-radius: math.div($base-border-radius, 3);
+
+        .label {
+            border-radius: math.div($base-border-radius, 3), math.div($base-border-radius, 3), 0, 0;
+        }
     }
 
     &.no-label {
@@ -89,7 +93,7 @@
 
 
     .label {
-        width: 25px;
+        width: 12px;
     }
 }
 

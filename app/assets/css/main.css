@@ -1764,6 +1764,9 @@ h1, h2, h3, h4, h5, h6 {
 .toast.border-radius {
   border-radius: 0.1666666667rem;
 }
+.toast.border-radius .label {
+  border-radius: 0.1666666667rem, 0.1666666667rem, 0, 0;
+}
 .toast.no-label .label {
   display: none;
 }
@@ -1815,7 +1818,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: larger;
 }
 .toast .label {
-  width: 25px;
+  width: 12px;
 }
 
 .two {
