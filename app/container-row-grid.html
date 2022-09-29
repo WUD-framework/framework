@@ -12,17 +12,17 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-3">
         <h2>LOGO</h2>
       </div>
-      <div class="col-8">
+      <div class="col-9">
         Navigation
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-4">
+      <aside class="col-3">
         <ul>
           <li><a href="index.html">Start</a></li>
           <li><a href="#">Customize</a></li>
@@ -34,8 +34,8 @@
           <li><a href="#">Utilities</a></li>
           <li><a href="#">About</a></li>
         </ul>
-      </div>
-      <div class="col-8">
+      </aside>
+      <main class="col-9">
         <h1>Layout</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium dolorum, maxime soluta ipsum
@@ -51,19 +51,131 @@
           </div>
         </div>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias autem laudantium minus accusamus, aliquam provident pariatur magnam modi odio enim nisi rem natus libero eos ut maxime a sunt?
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias autem laudantium minus accusamus,
+          aliquam provident pariatur magnam modi odio enim nisi rem natus libero eos ut maxime a sunt?
         </p>
         <h2>Rows</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias autem laudantium minus accusamus, aliquam provident pariatur magnam modi odio enim nisi rem natus libero eos ut maxime a sunt?
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias autem laudantium minus accusamus,
+          aliquam provident pariatur magnam modi odio enim nisi rem natus libero eos ut maxime a sunt?
         </p>
         <h2>Columns</h2>
+        <h4>General setup</h4>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias autem laudantium minus accusamus, aliquam provident pariatur magnam modi odio enim nisi rem natus libero eos ut maxime a sunt?
+          Out-of-the-box the column count is 12. To build a layout use the classes <em>col-*</em>, e.g. if you want a
+          50/50 layout use the class <em>.col-6</em> (12/2=6).
         </p>
-      </div>
+        <div class="show-columns small-text border-radius">
+          <div class="row">
+            <div class="col-12 text-center">.col-12</div>
+            <div class="col-6 text-center">.col-6</div>
+            <div class="col-6 text-center">.col-6</div>
+            <div class="col-4 text-center">.col-4</div>
+            <div class="col-4 text-center">.col-4</div>
+            <div class="col-4 text-center">.col-4</div>
+            <div class="col-3 text-center">.col-3</div>
+            <div class="col-3 text-center">.col-3</div>
+            <div class="col-3 text-center">.col-3</div>
+            <div class="col-3 text-center">.col-3</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+          </div>
+        </div>
+        <h4>Setup with breakpoints</h4>
+        <p>
+          Always think <strong>Mobile First</strong>. There are spcific class names for all the different <a
+            href="#">Breakpoints</a>.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <td>Breakpoint</td>
+              <td>Class infix</td>
+              <td>Dimensions</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Extra small</td>
+              <td><em>None</em></td>
+              <td><576px</td>
+            </tr>
+            <tr>
+              <td>Small</td>
+              <td>sm</td>
+              <td>≥576px</td>
+            </tr>
+            <tr>
+              <td>Medium</td>
+              <td>md</td>
+              <td>≥768px</td>
+            </tr>
+            <tr>
+              <td>Large</td>
+              <td>lg</td>
+              <td>≥992px</td>
+            </tr>
+            <tr>
+              <td>X-Large</td>
+              <td>xl</td>
+              <td>≥1200px</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="show-columns small-text">
+          <div class="row">
+            <div class="col-12 text-center">.col-12</div>
+            <div class="col-6 text-center">.col-6</div>
+            <div class="col-6 text-center">.col-6</div>
+            <div class="col-4 text-center">.col-4</div>
+            <div class="col-4 text-center">.col-4</div>
+            <div class="col-4 text-center">.col-4</div>
+            <div class="col-3 text-center">.col-3</div>
+            <div class="col-3 text-center">.col-3</div>
+            <div class="col-3 text-center">.col-3</div>
+            <div class="col-3 text-center">.col-3</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-2 text-center">.col-2</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+            <div class="col-1 text-center">.col-1</div>
+          </div>
+        </div>
+      </main>
     </div>
   </div>
+  <!-- SCRIPT -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

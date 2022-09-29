@@ -5,16 +5,15 @@
 
 // SASS MAP
 $theme-colors: (
-  "white": #fff,
-  "black": black,
+  "light": #fff,
+  "dark": black,
   "base": #1c1c1c,
-  "primary": #626ed4,
-  "secondary": #ee4266,
-  "success": #0bae67,
-  "danger": #dd1536,
+  "primary": #df4e53,
+  "secondary": #fb6a65,
+  "success": #48bd3e,
+  "danger": #dc3510,
   "warning": #f8b425,
-  "info": #38a5f8,
-  "johannes": teal
+  "info": #44bcff,
 ) !default;
 
 
@@ -44,15 +43,13 @@ $grid-bp-small: 576 !default;
 $grid-bp-medium: 768 !default;
 $grid-bp-large: 992 !default;
 $grid-bp-xlarge: 1200 !default;
-$grid-bp-stupid-show-off-large-screen: 4000 !default;
 
 // -- GRID MAP --
 $map-grid-prop: ('': 0,
-  '-small': $grid-bp-small,
-  '-medium': $grid-bp-medium,
-  '-large': $grid-bp-large,
-  '-xlarge': $grid-bp-xlarge,
-  '-stupid-show-off': $grid-bp-stupid-show-off-large-screen,
+  '-sm': $grid-bp-small,
+  '-md': $grid-bp-medium,
+  '-lg': $grid-bp-large,
+  '-xl': $grid-bp-xlarge,
 ) !default;
 
 

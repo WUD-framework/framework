@@ -1,12 +1,13 @@
 @mixin btn($btn-bg-color, $btn-text-color) {
-  padding: $base-padding $base-padding * 2;
+  padding: $base-padding * 1.125 $base-padding * 2;
   border-radius: $base-border-radius;
   display: inline-block;
   border: none;
   cursor: pointer;
   text-decoration: none;
   background-color: $btn-bg-color;
-  color: $btn-text-color
+  color: $btn-text-color;
+  margin-bottom: $base-padding;
 }
 
 .btn {
@@ -18,8 +19,22 @@
     @include btn($val, white);
   }
 
+  .btn-pill-#{$key} {
+    @include btn($val, white);
+    border-radius: 12rem;
+
+  }
+
   .btn-outlined-#{$key} {
     @include btn(white, $val);
     border: $base-border-thickness solid $val;
   }
+
+  .btn-pill-outlined-#{$key} {
+    @include btn(white, $val);
+    border: $base-border-thickness solid $val;
+    border-radius: 12rem;
+  }
+
+  
 }
