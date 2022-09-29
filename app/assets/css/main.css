@@ -1929,6 +1929,10 @@ img {
   border-radius: 0.5rem;
 }
 
+.box-shadow {
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }
