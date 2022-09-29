@@ -10,16 +10,38 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <h2 class="animate__animated animate__bounce">LOGO</h2>
-      </div>
-      <div class="col-8">
-        Navigation
-      </div>
-    </div>
-  </div>
+  <nav class="sidenav">
+    <ul class="main-buttons">
+      <li>
+        <ion-icon name="home-outline"></ion-icon>
+        home
+      </li>
+      <li>
+        <ion-icon name="color-palette-outline"></ion-icon>
+        Customize
+      </li>
+      <li>
+        <ion-icon name="grid-outline"></ion-icon>
+        Layout
+        <ul class="hidden">
+          <li>Overview</li>
+          <li>Container</li>
+          <li>Rows</li>
+          <li><a href="#">Columns</a></li>
+        </ul>
+      </li>
+      <li>
+        <ion-icon name="newspaper-outline"></ion-icon>
+        Content
+        <ul class="hidden">
+          <li>Overview</li>
+          <li>Container</li>
+          <li>Rows</li>
+          <li><a href="#">Columns</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
   <div class="container">
     <div class="row">
       <div class="col-4">
@@ -60,7 +82,7 @@
         <a class="btn-primary">Click me</a> <a class="btn-secondary">Click me</a>
         <div class="row">
           <div class="col-6">
-            <div class="card box-shadow border-radius" style="">
+            <div class="card box-shadow border-radius">
               <h1 style="text-align: center; padding: 4rem 0;">Mattias Lager</h1>
             </div>
           </div>
@@ -68,6 +90,10 @@
       </div>
     </div>
   </div>
+
+  <!-- SCRIPT -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
