@@ -1,3 +1,4 @@
 
 *.code-workspace
 *.codekit3
+/node_modules/
