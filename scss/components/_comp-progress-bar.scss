@@ -12,14 +12,29 @@ div.progressbar{
   background-color: black;
   border: 1px solid black;
   border-radius: 20px;
-  padding: 1px;
   margin-bottom: 10px;
+  height: 18px;
+  overflow: hidden;
+
+  & > div{
+    background-color: grey;
+    height: 1rem;
+    border-radius: 10px;
+    animation: progress-build 2s .4s linear forwards; 
+  }
 }
 
-.progressbar>div{
-  height: 16px;
-  border-radius: 10px;
+@keyframes progress-build {
+ from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
 }
+
+
 
 
 
