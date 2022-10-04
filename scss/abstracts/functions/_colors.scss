@@ -5,7 +5,7 @@ $val in $theme-colors {
   }
 
   .bg-#{$key} {
-    background-color: $val;
+    background-color: $val !important;
   }
 
   @if($val !=black and $val !=white) {

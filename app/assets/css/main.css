@@ -819,7 +819,7 @@
 }
 
 .bg-light {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 .text-dark {
@@ -827,7 +827,7 @@
 }
 
 .bg-dark {
-  background-color: black;
+  background-color: black !important;
 }
 
 .text-base {
@@ -835,7 +835,7 @@
 }
 
 .bg-base {
-  background-color: #1c1c1c;
+  background-color: #1c1c1c !important;
 }
 
 .text-base-light-1 {
@@ -951,7 +951,7 @@
 }
 
 .bg-primary {
-  background-color: #df4e53;
+  background-color: #df4e53 !important;
 }
 
 .text-primary-light-1 {
@@ -1067,7 +1067,7 @@
 }
 
 .bg-secondary {
-  background-color: #fb6a65;
+  background-color: #fb6a65 !important;
 }
 
 .text-secondary-light-1 {
@@ -1183,7 +1183,7 @@
 }
 
 .bg-success {
-  background-color: #48bd3e;
+  background-color: #48bd3e !important;
 }
 
 .text-success-light-1 {
@@ -1299,7 +1299,7 @@
 }
 
 .bg-danger {
-  background-color: #dc3510;
+  background-color: #dc3510 !important;
 }
 
 .text-danger-light-1 {
@@ -1415,7 +1415,7 @@
 }
 
 .bg-warning {
-  background-color: #f8b425;
+  background-color: #f8b425 !important;
 }
 
 .text-warning-light-1 {
@@ -1531,7 +1531,7 @@
 }
 
 .bg-info {
-  background-color: #38a5f8;
+  background-color: #38a5f8 !important;
 }
 
 .text-info-light-1 {
@@ -1979,91 +1979,27 @@ p {
   margin-bottom: 1.5rem;
 }
 
-@-webkit-keyframes grow {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes grow {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
-}
-html, body {
-  margin: 0;
-  height: 100%;
-  width: 100%;
-}
-
 body {
-  background: #26323D;
-  background-image: radial-gradient(transparent 65%, rgba(0, 0, 0, 0.3));
-  font-family: sans-serif;
+  background-color: white;
+  padding: 1em;
 }
 
-#container {
-  position: relative;
-  width: 50vw;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
+h3 {
+  font-weight: normal;
+  color: black;
 }
 
-input {
-  display: none;
+div.progressbar {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 1px;
+  margin-bottom: 10px;
 }
 
-label {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 40px;
-  background: transparent;
-  border-radius: 0.4rem;
-  border: 2px solid white;
-  overflow: hidden;
-  box-shadow: -2px 0 8px 0 rgba(255, 255, 255, 0.6);
-}
-label div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(to bottom, #A3E2EF 35%, #4F9CC0);
-  height: 100%;
-  width: 0%;
-  -webkit-animation: grow 2s forwards;
-          animation: grow 2s forwards;
-  box-shadow: 0 0 8px 1px white inset;
-}
-label div:before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  mix-blend-mode: overlay;
-  opacity: 0.5;
-}
-
-span {
-  display: inline-block;
-  color: #4F9CC0;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-top: 0.7rem;
-}
-span:last-child {
-  float: right;
+.progressbar > div {
+  height: 16px;
+  border-radius: 10px;
 }
 
 .container {

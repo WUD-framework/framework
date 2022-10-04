@@ -7,40 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/main.min.css">
   <title>Progress-Bar</title>
+ 
 </head>
 
 <body>
 
-  <div id="container">
-    <input type="checkbox" id="water" />
-    <label for="water">
-      <div id="fill"></div>
-    </label>
-    <span>Progress</span>
-    <span id="progress">0%</span>
-
-    <input type="checkbox" id="water" />
-    <label for="water">
-      <div id="fill"></div>
-    </label>
-    <span>Progress</span>
-    <span id="progress">0%</span>
+  <h3>Progressbars </h3>
+  <div class="progressbar">
+    <div class="bg-danger" style="width:35%"></div>
   </div>
-  
-  
 
-  <script>
-    window.onload = function(){
-        var elm = document.querySelector('#progress');
-        setInterval(function(){
-          if(!elm.innerHTML.match(/100%/gi)){
-            elm.innerHTML = (parseInt(elm.innerHTML) + 1) + '%';
-          } else {
-            clearInterval();
-          }
-        }, 18)
-      }
-      </script>
+  <div class="progressbar">
+    <div class="bg-success" style="width:50%"></div>
+  </div>
+
+  <div class="progressbar">
+    <div class="bg-info" style="width:75%"></div>
+  </div>
+
+  <h3>Labels</h3>
+
+  <div class="progressbar">
+    <div>25%</div>
+  </div> 
+
+
 
 </body>
 
