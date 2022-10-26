@@ -2338,6 +2338,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+.masonry-grid-item {
+  width: 200px;
+  background-color: blue;
+}
+
 .masonry {
   display: -ms-grid;
   display: grid;
