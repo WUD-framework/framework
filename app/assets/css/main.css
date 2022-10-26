@@ -2133,9 +2133,29 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+.hero-container.flex-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.hero-container.flex-end .hero-content-container {
+  text-align: right;
+}
+
+.hero-container.flex-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.hero-container.flex-start .hero-content-container {
+  text-align: left;
+}
+
 .hero-container .hero-content-container {
-  text-align: center;
   padding: 0 20rem 0 20rem;
+  text-align: center;
 }
 
 .hero-container h1 {
