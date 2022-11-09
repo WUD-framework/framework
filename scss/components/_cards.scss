@@ -4,20 +4,17 @@
     border-radius: $base-border-radius;
     overflow: hidden;
     min-width: 100%;
+    // filter: drop-shadow(0px 4px 4px rgba(28, 28, 28, 0.15));
 
-    .card-header {
-        width: 100%;
-        padding: $base-padding * 0.5 $base-padding;
-        font-weight: 300;
-        border-bottom: 1px solid black;
-    }
-
-    .card-img-container {
-        height: 18rem;
-        width: 100%;
-        margin-bottom: 1rem;
-        overflow: hidden;
+      .card-img-container {
+        height: 12rem;
+        // width: 100%;
+         overflow: hidden;
         position: relative;
+        border-radius: $base-border-radius;
+        margin: 0.7rem;
+        // margin-bottom: 1rem;
+
 
         img {
             position: absolute;
@@ -27,6 +24,7 @@
             height: 100%;
             min-width: 100%;
             object-fit: cover;
+            
         }
     }
 
@@ -41,28 +39,16 @@
         }
 
         .card-text {
-            margin-bottom: 1rem;
-        }
-
-        .card-links {
-            margin-bottom: 1rem;
-            display: flex;
-            flex-direction: row;
-            gap: 1rem;
+            margin-bottom: 2rem;
         }
     }
 
     .card-buttons {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
         gap: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .card-footer {
-        width: 100%;
-        padding: $base-padding * 0.5 $base-padding;
-        font-weight: 300;
-        border-top: 1px solid black;
+        margin-bottom: 0.5rem;
     }
 }
