@@ -1,4 +1,4 @@
-// import Masonry from 'masonry-layout';
+import Masonry from 'masonry-layout';
 
 // window.onload = () => {
 //     const grid = document.querySelector('.masonry');
