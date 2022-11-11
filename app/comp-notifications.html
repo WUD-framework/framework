@@ -51,7 +51,7 @@
                 </ul>
             </div>
             <div class="col-8">
-                <h2>Notification</h2>
+                <!-- <h2>Notification</h2>
                 <div class="noti">
                     <div class="noti-header">
                         <div class="section-1">
@@ -68,63 +68,63 @@
                     <div class="noti-content">
                         <p>Lorem ipsum.</p>
                     </div>
-                </div>
-
+                </div> -->
 
                 <h2>Toasts</h2>
 
-                <p>Help classes: info, warning, danger, success, no-label</p>
+                <h3>Toast types</h3>
+                <span>
+                    To help get the right toast for the right situation, we have 4 different kind of toast types.
+                    These types is reached via a class on the wrapping "toast"- div. The classes is "success", "warning",
+                    "danger", and "info".
+                </span>
 
-                <div class="toast info">
+                <div class="toast success no-border-radius">
                     <div class="label"></div>
-                    <div class="two">
-                        <div class="toast-type">i</div>
-                        <div class="toast-info">This is a info toast</div>
+                    <div class="icon">&check;</div>
+                    <div class="toast-body">
+                        <h5>Success</h5>
+                        <p>Standard succuess toast</p>
                     </div>
-                    <div class="three">
-                        <button class="noti-close" onclick="closeToast()">
-                            &times;
-                        </button>
-                    </div>
+                    <button class="close-btn" onclick="closeToast()">
+                        &times;
+                    </button>
                 </div>
 
                 <div class="toast warning">
                     <div class="label"></div>
-                    <div class="two">
-                        <div class="toast-type">&#33;</div>
-                        <div class="toast-info">This is a warning toast</div>
+                    <div class="icon">&check;</div>
+                    <div class="toast-body">
+                        <h5>Warning</h5>
+                        <p>Standard warning toast</p>
                     </div>
-                    <div class="three">
-                        <button class="noti-close" onclick="closeToast()">
-                            &times;
-                        </button>
-                    </div>
+                    <button class="close-btn" onclick="closeToast()">
+                        &times;
+                    </button>
                 </div>
 
-                <div class="toast danger box-shadow border-radius">
+                <div class="toast danger">
                     <div class="label"></div>
-                    <div class="two">
-                        <div class="toast-type">&times;</div>
-                        <div class="toast-info">This is a error toast</div>
+                    <div class="icon">&check;</div>
+                    <div class="toast-body">
+                        <h5>Danger</h5>
+                        <p>Standard danger toast</p>
                     </div>
-                    <div class="three">
-                        <button class="noti-close" onclick="closeToast()">
-                            &times;
-                        </button>
-                    </div>
+                    <button class="close-btn" onclick="closeToast()">
+                        &times;
+                    </button>
                 </div>
 
-                <div class="toast success box-shadow border-radius">
+                <div class="toast info">
                     <div class="label"></div>
-                    <div class="two">
-                        <div class="toast-type">&check;</div>
-                        <div class="toast-info">This is a success toast</div>
+                    <div class="icon">&check;</div>
+                    <div class="toast-body">
+                        <h5>Info</h5>
+                        <p>Standard info toast</p>
                     </div>
-                    <div class="three">
-                        <button class="noti-close" onclick="closeToast()">
-                            &times;
-                        </button>
-                    </div>
+                    <button class="close-btn" onclick="closeToast()">
+                        &times;
+                    </button>
                 </div>
 
 
@@ -132,10 +132,13 @@
 
                 <!-- ALERTS HERE -->
                 <h4>Standard alerts</h4>
-                <p>Help classes: info, warning, danger, success, border</p>
+                <p>// ADD CLOSING BUTTON</p>
 
                 <div class="alert info">
                     <div class="header">This is a success alert
+                        <button class="noti-close" onclick="closeToast()">
+                            &times;
+                        </button>
                         <hr>
                     </div>
                     <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
@@ -144,6 +147,9 @@
 
                 <div class="alert warning">
                     <div class="header">This is a success alert
+                        <button class="noti-close" onclick="closeToast()">
+                            &times;
+                        </button>
                         <hr>
                     </div>
                     <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
@@ -152,6 +158,9 @@
 
                 <div class="alert danger">
                     <div class="header">This is a success alert
+                        <button class="noti-close" onclick="closeToast()">
+                            &times;
+                        </button>
                         <hr>
                     </div>
                     <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
@@ -161,6 +170,9 @@
 
                 <div class="alert success">
                     <div class="header">This is a success alert
+                        <button class="noti-close" onclick="closeToast()">
+                            &times;
+                        </button>
                         <hr>
                     </div>
                     <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit

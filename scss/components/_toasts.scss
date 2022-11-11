@@ -2,65 +2,44 @@
 @use "sass:math";
 
 .toast {
-    max-width: 350px;
-    min-width: max-content;
-    height: 50px;
     display: flex;
-    margin-bottom: 10px;
+    border-radius: $base-border-radius;
+    box-shadow: 0 4px 8px rgba($color: map.get($map: $theme-colors, $key: base), $alpha: .10);
+    width: 330px;
+    min-height: 70px;
+    margin: 10px;
 
-    &.border-radius {
-        border-radius: math.div($base-border-radius, 3);
-
-        .label {
-            border-radius: math.div($base-border-radius, 3), math.div($base-border-radius, 3), 0, 0;
-        }
+    .icon {
+        display: none;
     }
 
-    &.no-label {
-        .label{
-            display: none;
-        }
+    .label {
+        border-radius: 5px 0 0 5px;
+        min-width: 0.8rem;
+        width: 12px;
+        height: inherit;
     }
 
-    // Loop this, mkay?
-    &.danger {
-
-        .label {
-            background-color: map.get($theme-colors, "danger");
-        }
-
-        .toast-type {
-            background-color: transparent;
-            border: $base-border-thickness solid map.get($theme-colors, "danger");
-            color: map.get($theme-colors, "danger");
-        }
+    .toast-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        padding: 1.5rem;
+        width: 100%;
     }
 
-    &.info {
-
-        .label {
-            background-color: map.get($theme-colors, "info");
-        }
-
-        .toast-type {
-            background-color: transparent;
-            border: $base-border-thickness solid map.get($theme-colors, "info");
-            color: map.get($theme-colors, "info");
-        }
+    .close-btn {
+        display: flex;
+        align-items: flex-start;
+        padding-right: 5px;
+        background: none;
+        border: none;
+        font-size: 25px;
     }
 
-    &.warning {
-
-        .label {
-            background-color: map.get($theme-colors, "warning");
-        }
-
-        .toast-type {
-            background-color: transparent;
-            border: $base-border-thickness solid map.get($theme-colors, "warning");
-            color: map.get($theme-colors, "warning");
-        }
-    }
+    // TOAST TYPES
+    ////////////////////////////////////////////////    
 
     &.success {
 
@@ -70,50 +49,191 @@
             background-color: map.get($theme-colors, "success");
         }
 
-        .toast-type {
-            background-color: transparent;
+        .icon {
             border: $base-border-thickness solid map.get($theme-colors, "success");
+        }
+
+        h5,
+        .icon,
+        .close-btn {
             color: map.get($theme-colors, "success");
         }
     }
 
-    .toast-type {
-        display: flex;
-        width: 30px;
-        height: 30px;
-        margin-right: 10px;
-        margin-left: 10px;
-        border-radius: 10rem;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-size: larger;
+    &.warning {
 
+        border: $base-border-thickness solid map.get($theme-colors, "warning");
+
+        .label {
+            background-color: map.get($theme-colors, "warning");
+        }
+
+        .icon {
+            border: $base-border-thickness solid map.get($theme-colors, "warning");
+        }
+
+        h5,
+        .icon,
+        .close-btn {
+            color: map.get($theme-colors, "warning");
+        }
     }
 
+    &.danger {
 
-    .label {
-        width: 12px;
+        border: $base-border-thickness solid map.get($theme-colors, "danger");
+
+        .label {
+            background-color: map.get($theme-colors, "danger");
+        }
+
+        .icon {
+            border: $base-border-thickness solid map.get($theme-colors, "danger");
+        }
+
+        h5,
+        .icon,
+        .close-btn {
+            color: map.get($theme-colors, "danger");
+        }
     }
-}
+
+    &.info {
+
+        border: $base-border-thickness solid map.get($theme-colors, "info");
+
+        .label {
+            background-color: map.get($theme-colors, "info");
+        }
+
+        .icon {
+            border: $base-border-thickness solid map.get($theme-colors, "info");
+        }
+
+        h5,
+        .icon,
+        .close-btn {
+            color: map.get($theme-colors, "info");
+        }
+    }
+
+    // ADD STYLE
+    ////////////////////////////////////////////////
+
+    &.icon {
+        .icon {
+            display: flex;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10rem;
+            margin-left: 15px;
+            min-width: 30px;
+            max-width: 30px;
+            min-height: 30px;
+            max-height: 30px;
+        }
+    }
+
+    &.colored {
+        &.success {
+            background-color: rgba(map.get($theme-colors, success), .1);
+        }
+
+        &.warning {
+            background-color: rgba(map.get($theme-colors, warning), .1);
+        }
+
+        &.danger {
+            background-color: rgba(map.get($theme-colors, danger), .1);
+        }
+
+        &.info {
+            background-color: rgba(map.get($theme-colors, info), .1);
+        }
+    }
+
+    // REMOVE STYLE
+    ////////////////////////////////////////////////
+
+    &.no-border {
+        border: none;
+    }
+
+    &.no-title {
+        .toast-body h5 {
+            display: none;
+        }
+    }
+
+    &.no-summary {
+        .toast-body p {
+            display: none;
+        }
+    }
+
+    &.no-border-radius {
+        border-radius: 0;
+        .label {
+            border-radius: 0;
+        }
+    }
+
+    &.no-label {
+        .toast-body {
+            padding-left: 2.3rem;
+        }
+
+        .label {
+            display: none;
+        }
+    }
+
+    // Loop this, mkay?
+    // &.danger {
+
+    //     border: $base-border-thickness solid map.get($theme-colors, "danger");
+
+    //     .label {
+    //         background-color: map.get($theme-colors, "danger");
+    //     }
+
+    //     .toast-type {
+    //         background-color: transparent;
+    //         border: $base-border-thickness solid map.get($theme-colors, "danger");
+    //         color: map.get($theme-colors, "danger");
+    //     }
+    // }
+
+    // &.info {
+
+    //     border: $base-border-thickness solid map.get($theme-colors, "info");
+
+    //     .label {
+    //         background-color: map.get($theme-colors, "info");
+    //     }
+
+    //     .toast-type {
+    //         background-color: transparent;
+    //         border: $base-border-thickness solid map.get($theme-colors, "info");
+    //         color: map.get($theme-colors, "info");
+    //     }
+    // }
+
+    // &.warning {
+
+    //     border: $base-border-thickness solid map.get($theme-colors, "warning");
+
+    //     .label {
+    //         background-color: map.get($theme-colors, "warning");
+    //     }
+
+    //     .toast-type {
+    //         background-color: transparent;
+    //         border: $base-border-thickness solid map.get($theme-colors, "warning");
+    //         color: map.get($theme-colors, "warning");
+    //     }
+    // }
 
 
-
-.two {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    align-items: center;
-
-}
-
-
-.three {
-    padding: 5px;
-}
-
-
-// BOX-SHADOW
-.box-shadow{
-box-shadow: 0 4px 8px rgba($color: map.get($map: $theme-colors, $key: base), $alpha: .10);
 }
