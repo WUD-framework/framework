@@ -1,0 +1,26 @@
+@use "sass:map";
+@use "sass:math";
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+
+    thead {
+        font-weight: 600;
+        
+
+        tr {
+            td {
+                border-bottom: $base-border-thickness * 2 solid map.get($map: $theme-colors, $key: primary);
+                padding-bottom: math.div($base-padding, 1);
+            }
+        }
+    }
+
+    tr {
+        td {
+            padding: math.div($base-padding, 1.25);
+        }
+    }
+}
