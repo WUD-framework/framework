@@ -1,3 +1,5 @@
+@use "sass:map";
+
 :root {
   --black: #333;
   --white: #fff;
@@ -13,7 +15,7 @@ $theme-colors: (
   "success": #48bd3e,
   "danger": #dc3510,
   "warning": #f8b425,
-  "info": #38a5f8,
+  "info": #44bcff,
 ) !default;
 
 
@@ -24,6 +26,7 @@ $font-size-lg: $base-font-size * 1.5;
 $base-padding: 1rem;
 $base-border-radius: .5rem;
 $base-border-thickness: 1px;
+$base-box-shadow: 0 4px 8px rgba($color: map.get($map: $theme-colors, $key: base), $alpha: .10);
 
 
 // !important gör att den css går över hierarki
@@ -42,15 +45,13 @@ $grid-bp-small: 576 !default;
 $grid-bp-medium: 768 !default;
 $grid-bp-large: 992 !default;
 $grid-bp-xlarge: 1200 !default;
-$grid-bp-stupid-show-off-large-screen: 4000 !default;
 
 // -- GRID MAP --
 $map-grid-prop: ('': 0,
-  '-small': $grid-bp-small,
-  '-medium': $grid-bp-medium,
-  '-large': $grid-bp-large,
-  '-xlarge': $grid-bp-xlarge,
-  '-stupid-show-off': $grid-bp-stupid-show-off-large-screen,
+  '-sm': $grid-bp-small,
+  '-md': $grid-bp-medium,
+  '-lg': $grid-bp-large,
+  '-xl': $grid-bp-xlarge,
 ) !default;
 
 

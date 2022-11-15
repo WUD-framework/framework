@@ -1,7 +1,13 @@
+@use "sass:map";
+
+// BORDER RADIUS
+
 .border-radius {
     border-radius: $base-border-radius;
 }
 
-.border-radius-lg {
-    border-radius: $base-border-radius * 2;
+
+// BOX-SHADOW
+.box-shadow{
+    box-shadow: $base-box-shadow;
 }
