@@ -6,20 +6,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/main.min.css">
-  <title>Document</title>
+  <title>Home | Framework</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <h2>LOGO</h2>
-      </div>
-      <div class="col-8">
-        Navigation
-      </div>
-    </div>
-  </div>
+  <nav class="sidenav">
+    <ul class="main-buttons">
+      <li>
+        <ion-icon name="home-outline"></ion-icon>
+        home
+      </li>
+      <li>
+        <ion-icon name="color-palette-outline"></ion-icon>
+        Customize
+      </li>
+      <li>
+        <ion-icon name="grid-outline"></ion-icon>
+        Layout
+        <ul class="hidden">
+          <li>Overview</li>
+          <li>Container</li>
+          <li>Rows</li>
+          <li><a href="#">Columns</a></li>
+        </ul>
+      </li>
+      <li>
+        <ion-icon name="newspaper-outline"></ion-icon>
+        Content
+        <ul class="hidden">
+          <li>Overview</li>
+          <li>Container</li>
+          <li>Rows</li>
+          <li><a href="#">Columns</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
   <div class="container">
     <div class="row">
       <div class="col-4">
@@ -51,15 +73,27 @@
         </ul>
       </div>
       <div class="col-8">
-        <h1>Start here</h1>
+        <h1 class="animate__animated animate__fadeInUp">Start here</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium dolorum, maxime soluta ipsum
           exercitationem, repudiandae, consectetur molestiae cum eligendi animi magni a perferendis sequi accusamus ex
           alias consequatur sapiente?
         </p>
+        <a class="btn-primary">Click me</a> <a class="btn-secondary">Click me</a>
+        <div class="row">
+          <div class="col-6">
+            <div class="card box-shadow border-radius">
+              <h1 style="text-align: center; padding: 4rem 0;">Mattias Lager</h1>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <!-- SCRIPT -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
