@@ -77,7 +77,7 @@ function showSlidesAuto() {
 
 }
 
-//Found this online. Can't say that I completely understand it though
+//Found this online. 
 
 //https://gist.github.com/ncou/3a0a1f89c8e22416d0d607f621a948a9
 
