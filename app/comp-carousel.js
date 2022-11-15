@@ -4,6 +4,7 @@ const next = document.getElementById('next');
 const prev = document.getElementById('prev');
 const pag = document.getElementById('carousel-pag');
 
+
 // Slideindex börjar på 1. Börja alltså med att visa slide 1
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -22,26 +23,7 @@ function createPag() {
 }
 createPag()
 
-function showSlides(n) {
-    // Om siffran som räknas är större än antalet slides så skall räkningen börjar om från slide 1 igen
-    if (n > mySlides.length) {
-        slideIndex = 1
-    };
 
-    // Om siffran som räknas är mindre än 1 skall slide 3 visas. Man går alltså från slide 1 till 3 när man trycke rpå prev-pilen
-    if (n < 1) {
-        slideIndex = mySlides.length
-    };
-
-    // För varje slide, display = none
-    for (let i = 0; i < mySlides.length; i++) {
-        mySlides[i].style.display = 'none';
-    }
-
-    //Display block för den slide vars index är aktuellt (minus 1, pga att räkningen börjar med noll per auto?)
-    mySlides[slideIndex - 1].style.display = 'block';  
-
-}
 
 //Eventlyssnare för knapparna. Skicka in om 1 skall läggas till eller tas bort. 
 next.addEventListener('click', function (e) {
@@ -69,12 +51,33 @@ function showSlidesAuto() {
         slideIndexAuto = 1
     }
     for (let i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace("active", "")    
+        dots[i].className = dots[i].className.replace("active", "")
     }
 
     mySlides[slideIndexAuto - 1].style.display = "block";
     dots[slideIndexAuto - 1].className += "active";
 
+}
+
+function showSlides(n) {
+
+    // Om siffran som räknas är större än antalet slides så skall räkningen börjar om från slide 1 igen
+    if (n > mySlides.length) {
+        slideIndex = 1
+    };
+
+    // Om siffran som räknas är mindre än 1 skall slide 3 visas. Man går alltså från slide 1 till 3 när man trycke rpå prev-pilen
+    if (n < 1) {
+        slideIndex = mySlides.length
+    };
+
+    // För varje slide, display = none
+    for (let i = 0; i < mySlides.length; i++) {
+        mySlides[i].style.display = 'none';
+    }
+
+    //Display block för den slide vars index är aktuellt (minus 1, pga att räkningen börjar med noll per auto?)
+    mySlides[slideIndex - 1].style.display = 'block';
 }
 
 //Found this online. 
