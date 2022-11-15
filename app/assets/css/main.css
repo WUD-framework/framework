@@ -2486,6 +2486,14 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 300px;
 }
 
+.masonry #myModal {
+  background-color: red;
+}
+
+.masonry #myModal img {
+  max-width: 200px;
+}
+
 .masonry #myImg:hover {
   opacity: 0.7;
 }
