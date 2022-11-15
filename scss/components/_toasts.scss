@@ -33,8 +33,6 @@
         display: flex;
         align-items: flex-start;
         padding-right: 5px;
-        background: none;
-        border: none;
         font-size: 25px;
     }
 
@@ -188,52 +186,4 @@
             display: none;
         }
     }
-
-    // Loop this, mkay?
-    // &.danger {
-
-    //     border: $base-border-thickness solid map.get($theme-colors, "danger");
-
-    //     .label {
-    //         background-color: map.get($theme-colors, "danger");
-    //     }
-
-    //     .toast-type {
-    //         background-color: transparent;
-    //         border: $base-border-thickness solid map.get($theme-colors, "danger");
-    //         color: map.get($theme-colors, "danger");
-    //     }
-    // }
-
-    // &.info {
-
-    //     border: $base-border-thickness solid map.get($theme-colors, "info");
-
-    //     .label {
-    //         background-color: map.get($theme-colors, "info");
-    //     }
-
-    //     .toast-type {
-    //         background-color: transparent;
-    //         border: $base-border-thickness solid map.get($theme-colors, "info");
-    //         color: map.get($theme-colors, "info");
-    //     }
-    // }
-
-    // &.warning {
-
-    //     border: $base-border-thickness solid map.get($theme-colors, "warning");
-
-    //     .label {
-    //         background-color: map.get($theme-colors, "warning");
-    //     }
-
-    //     .toast-type {
-    //         background-color: transparent;
-    //         border: $base-border-thickness solid map.get($theme-colors, "warning");
-    //         color: map.get($theme-colors, "warning");
-    //     }
-    // }
-
-
 }

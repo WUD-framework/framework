@@ -51,35 +51,20 @@
                 </ul>
             </div>
             <div class="col-8">
-                <!-- <h2>Notification</h2>
-                <div class="noti">
-                    <div class="noti-header">
-                        <div class="section-1">
-                            <img src="#" class="noti-logo" alt=".">
-                            <strong class="noti-location">NOTIFICATION</strong>
-                        </div>
-                        <div class="section-2">
-                            <small>3 min ago</small>
-                            <button class="noti-close" onclick="closeNoti()">
-                                &times;
-                            </button>
-                        </div>
-                    </div>
-                    <div class="noti-content">
-                        <p>Lorem ipsum.</p>
-                    </div>
-                </div> -->
+
+                <!-- TOASTS -->
 
                 <h2>Toasts</h2>
 
-                <h3>Toast types</h3>
-                <span>
-                    To help get the right toast for the right situation, we have 4 different kind of toast types.
-                    These types is reached via a class on the wrapping "toast"- div. The classes is "success", "warning",
-                    "danger", and "info".
-                </span>
+                <br>
+                <p>
+                    Change toast type with classes: <br>
+                    "success", "warning", "danger", "info"
+                </p>
+                <br>
+                <p>Add style with classes: "icon", "colored"</p>
 
-                <div class="toast success no-border-radius">
+                <div class="toast success">
                     <div class="label"></div>
                     <div class="icon">&check;</div>
                     <div class="toast-body">
@@ -91,7 +76,7 @@
                     </button>
                 </div>
 
-                <div class="toast warning">
+                <!-- <div class="toast warning">
                     <div class="label"></div>
                     <div class="icon">&check;</div>
                     <div class="toast-body">
@@ -125,105 +110,175 @@
                     <button class="close-btn" onclick="closeToast()">
                         &times;
                     </button>
+                </div> -->
+
+                <!-- <button id="test" onclick="toastDemo()">Toast demo</button> -->
+                <!-- <button id="label-toggle" onclick="labelToggle()">Label</button> -->
+                <div id="buttons-div">
+                    <button class="btn" id="success-btn">Success</button>
+                    <button class="btn" id="warning-btn">Warning</button>
+                    <button class="btn" id="danger-btn">Danger</button>
+                    <button class="btn" id="info-btn">Info</button>
+                    <br>
+                    <button class="btn" id="label-toggle">Label</button>
+                    <button class="btn" id="colored-toggle">Colored</button>
+                    <br>
+                    <button class="btn" id="border-toggle">Border</button>
+                    <button class="btn" id="title-toggle">Title</button>
+                    <button class="btn" id="summary-toggle">Summary</button>
+                    <button class="btn" id="br-toggle">Border-Radius</button>
                 </div>
 
+
+                <!-- ALERTS -->
 
                 <h2>Alerts</h2>
 
-                <!-- ALERTS HERE -->
-                <h4>Standard alerts</h4>
-                <p>// ADD CLOSING BUTTON</p>
+                <p>Add style with classes: "colored", "con-dis"</p>
 
-                <div class="alert info">
-                    <div class="header">This is a success alert
-                        <button class="noti-close" onclick="closeToast()">
+                <div class="alert success">
+                    <div class="header">
+                        <h5>Success</h5>
+                        <button class="close-btn" onclick="closeAlert()">
                             &times;
                         </button>
-                        <hr>
                     </div>
-                    <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
-                        nesciunt ratione aliquid quaerat vero nemo minus itaque expedita adipisci veniam.</div>
+                    <div class="description">
+                        Success description
+                    </div>
                 </div>
 
                 <div class="alert warning">
-                    <div class="header">This is a success alert
-                        <button class="noti-close" onclick="closeToast()">
+                    <div class="header">
+                        <h5>warning</h5>
+                        <button class="close-btn" onclick="closeAlert()">
                             &times;
                         </button>
-                        <hr>
                     </div>
-                    <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
-                        nesciunt ratione aliquid quaerat vero nemo minus itaque expedita adipisci veniam.</div>
-                </div>
-
-                <div class="alert danger">
-                    <div class="header">This is a success alert
-                        <button class="noti-close" onclick="closeToast()">
-                            &times;
-                        </button>
-                        <hr>
-                    </div>
-                    <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
-                        nesciunt ratione aliquid quaerat vero nemo minus itaque expedita adipisci veniam.</div>
-                </div>
-
-
-                <div class="alert success">
-                    <div class="header">This is a success alert
-                        <button class="noti-close" onclick="closeToast()">
-                            &times;
-                        </button>
-                        <hr>
-                    </div>
-                    <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, sint impedit
-                        nesciunt ratione aliquid quaerat vero nemo minus itaque expedita adipisci veniam.</div>
-                </div>
-
-
-                <h4>Confirmable alerts</h4>
-
-                <div class="alert info border">
-                    <div class="header">This is a info alert</div>
-                    <div class="description">Here goes the description of the alert</div>
-                    <div class="button-div">
-                        <button>Confirm</button>
-                        <button>Dismiss</button>
-                    </div>
-                </div>
-
-                <div class="alert warning border">
-                    <div class="header">This is a warning alert</div>
-                    <div class="description">Here goes the description of the alert</div>
-                    <div class="button-div">
-                        <button>Confirm</button>
-                        <button>Dismiss</button>
+                    <div class="description">
+                        Warning description
                     </div>
                 </div>
 
                 <div class="alert danger">
-                    <div class="header">This is a danger alert</div>
-                    <div class="description">Here goes the description of the alert</div>
-                    <div class="button-div">
-                        <button>Confirm</button>
-                        <button type="button" class="alert-dismissible" data-dismiss="alert">Dismiss</button>
+                    <div class="header">
+                        <h5>Danger</h5>
+                        <button class="close-btn" onclick="closeAlert()">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="description">
+                        Danger description
                     </div>
                 </div>
 
-                <div class="alert success">
-                    <div class="header">This is a success alert</div>
-                    <div class="description">Here goes the description of the alert</div>
-                    <div class="button-div">
-                        <button>Confirm</button>
-                        <button>Dismiss</button>
+                <div class="alert info con-dis">
+                    <div class="header">
+                        <h5>Info</h5>
+                        <button class="close-btn" onclick="closeAlert()">
+                            &times;
+                        </button>
                     </div>
+                    <div class="description">
+                        Info description
+                    </div>
+                    <div class="button-div">
+                        <button class="btn-info">Confirm</button>
+                        <button class="btn" onclick="closeAlert()">Dismiss</button>
+                    </div>
+                </div>
+
+                <!-- NOTIFICATION -->
+
+            <h2>Notification</h2>
+            <div class="noti">
+                <div class="noti-header">
+                    <div class="section-1">
+                        <img src="#" class="noti-logo" alt=".">
+                        <strong class="noti-location">NOTIFICATION</strong>
+                    </div>
+                    <div class="section-2">
+                        <small>3 min ago</small>
+                        <button class="noti-close" onclick="closeNoti()">
+                            &times;
+                        </button>
+                    </div>
+                </div>
+                <div class="noti-content">
+                    <p>Lorem ipsum.</p>
                 </div>
             </div>
+
+
+            </div>
+
+            
         </div>
+    </div>
     </div>
 
 
 
     <script>
+        let toast = document.querySelector(".toast");
+        let buttons = document.getElementById("buttons-div");
+
+        buttons.addEventListener("click", e => {
+
+            switch (e.target.textContent) {
+
+                case "Success":
+                    toast.className = "toast"
+                    toast.classList.add("success");
+                    break;
+
+                case "Warning":
+                    toast.className = "toast"
+                    toast.classList.add("warning");
+                    break;
+
+                case "Danger":
+                    toast.className = "toast"
+                    toast.classList.add("danger");
+                    break;
+
+                case "Info":
+                    toast.className = "toast"
+                    toast.classList.add("info");
+                    break;
+
+                case "Label":
+                    toast.classList.toggle("no-label");
+                    break;
+
+                case "Colored":
+                    toast.classList.toggle("colored");
+                    break;
+
+                case "Border":
+                    toast.classList.toggle("no-border");
+                    break;
+
+                case "Title":
+                    toast.classList.toggle("no-title");
+                    break;
+
+                case "Summary":
+                    toast.classList.toggle("no-summary");
+                    break;
+
+                case "Border-Radius":
+                    toast.classList.toggle("no-border-radius");
+                    break;
+                default:
+                    break;
+            }
+        });
+
+        function closeAlert() {
+            event.target.closest('.alert').remove();
+        }
+
         function closeNoti() {
             event.target.closest('.noti').remove();
         }
