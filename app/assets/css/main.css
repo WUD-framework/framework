@@ -2396,9 +2396,9 @@ h1, h2, h3, h4, h5, h6 {
   /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%;
+  width: 10%;
   /* Full width */
-  height: 100%;
+  height: 10%;
   /* Full height */
   overflow: auto;
   /* Enable scroll if needed */
@@ -2482,6 +2482,8 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  width: 200px;
+  max-width: 300px;
 }
 
 .masonry #myImg:hover {
