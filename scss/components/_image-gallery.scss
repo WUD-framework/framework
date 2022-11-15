@@ -1,7 +1,16 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+#myModal {
+  background: white;
+  position: absolute;
+  top: 2rem;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  z-index: 999;
+  display: none;
+  
+  img {
+    max-width: 200px;
+  }
 }
 
 .masonry-grid-item { 
@@ -136,13 +145,6 @@
   width: 200px;
   max-width: 300px;
 
-}
-
-#myModal {
-  background-color: red;
-  img{
-    max-width: 200px;
-  }
 }
 
 
