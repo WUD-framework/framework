@@ -1946,6 +1946,30 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
 
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.125rem;
+}
+
+h5 {
+  font-size: 1.625rem;
+}
+
+h6 {
+  font-size: 1.125rem;
+}
+
 p {
   margin-bottom: 1.5rem;
 }
@@ -1963,6 +1987,8 @@ p {
   border-radius: 0.5rem;
   overflow: hidden;
   min-width: 100%;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  background-color: white;
 }
 .card .card-img-container {
   height: 12rem;
