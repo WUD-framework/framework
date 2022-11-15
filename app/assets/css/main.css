@@ -1983,12 +1983,15 @@ p {
 }
 
 .card {
-  border: 1px solid black;
+  border: 1px solid #1c1c1c;
   border-radius: 0.5rem;
   overflow: hidden;
   min-width: 100%;
   box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
   background-color: white;
+}
+.card.card-primary {
+  border: 1px solid #df4e53;
 }
 .card .card-img-container {
   height: 12rem;
@@ -2006,6 +2009,9 @@ p {
   min-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.card.no-border {
+  border: none;
 }
 .card .card-body {
   padding: 1rem;

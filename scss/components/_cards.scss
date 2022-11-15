@@ -1,12 +1,16 @@
+@use "sass:map";
+
 .card {
-    //width: 25rem;
-    border: 1px solid black;
+    border: $base-border-thickness solid map-get($map: $theme-colors, $key: base);
     border-radius: $base-border-radius;
     overflow: hidden;
     min-width: 100%;
     box-shadow: $base-box-shadow;
     background-color: white;
-    // filter: drop-shadow(0px 4px 4px rgba(28, 28, 28, 0.15));
+
+    &.card-primary {
+        border: $base-border-thickness solid map-get($map: $theme-colors, $key: primary);
+    }
 
       .card-img-container {
         height: 12rem;
@@ -28,6 +32,10 @@
             object-fit: cover;
             
         }
+    }
+
+    &.no-border {
+        border: none;
     }
 
     .card-body {

@@ -9,5 +9,5 @@
 
 // BOX-SHADOW
 .box-shadow{
-    box-shadow: 0 4px 8px rgba($color: map.get($map: $theme-colors, $key: base), $alpha: .10);
+    box-shadow: $base-box-shadow;
 }
