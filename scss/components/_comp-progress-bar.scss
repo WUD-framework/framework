@@ -11,41 +11,43 @@ h3 {
 h6{
   font-size:0.2em;
   text-align: center;
-  
+  font-size: 0.15em;
+  font-weight: normal;
 }
 
 div.progressbar {
-  box-shadow: inset 0px 0px 10px rgba(270, 78, 83, 0.15);
+  position: relative;
+  box-shadow: inset 0px 0px 10px rgba(223, 78, 83, 0.15);
   border-radius: 20px;
   margin-bottom: 10px;
-  height: 17px;
+  height: 1rem;
   overflow: hidden;
 
   &.clear { 
     box-shadow: none;
-    border: 1px solid #48BD3E;
+    outline: 1px solid #48BD3E;
   }
 
   &.lightShadow {
-    box-shadow: 2px 0px 0px #FB6A65;
+  
   }
 
   &>div {
     background-color: grey;
     height: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
     border-radius: 10px;
     animation: progress-build 2s .4s linear forwards;
+    box-shadow: 4px 0px 4px rgba(223, 78, 83, 0.15);
   }
 }
 
-
-
-
-@keyframes progress-build {
+@keyframes progress-build { 
   from {
     transform: translateX(-100%);
   }
-
   to {
     transform: translateX(0%);
   }
