@@ -11,6 +11,7 @@
     margin-bottom: 10px;
     border-radius: $base-border-radius;
     box-shadow: 0 4px 8px rgba($color: map.get($map: $theme-colors, $key: base), $alpha: .10);
+    background: map.get($map: $theme-colors, $key: light);
 
     h5 {
         width: 100%;

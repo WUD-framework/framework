@@ -1918,6 +1918,11 @@ img {
   max-width: 100%;
 }
 
+button {
+  background: none;
+  border: none;
+}
+
 .d-flex {
   display: flex;
 }
@@ -1992,6 +1997,7 @@ p {
   flex-direction: column;
   border-radius: 5px;
   margin-bottom: 10px;
+  background: #fff;
 }
 
 .noti-header {
@@ -2020,6 +2026,88 @@ p {
   width: 330px;
   min-height: 70px;
   margin: 10px;
+  background: #fff;
+}
+.toast {
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  width: 330px;
+  min-height: 70px;
+  margin: 10px;
+  background: #fff;
+}
+.toast {
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  width: 330px;
+  min-height: 70px;
+  margin: 10px;
+  background: #fff;
+}
+.toast {
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  width: 330px;
+  min-height: 70px;
+  margin: 10px;
+  background: #fff;
+}
+.toast {
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  width: 330px;
+  min-height: 70px;
+  margin: 10px;
+  background: #fff;
+}
+.toast {
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  width: 330px;
+  min-height: 70px;
+  margin: 10px;
+  background: #fff;
+}
+.toast {
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  width: 330px;
+  min-height: 70px;
+  margin: 10px;
+  background: #fff;
+}
+.toast {
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  width: 330px;
+  min-height: 70px;
+  margin: 10px;
+  background: #fff;
+}
+.toast {
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  width: 330px;
+  min-height: 70px;
+  margin: 10px;
+  background: #fff;
+}
+.toast {
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  width: 330px;
+  min-height: 70px;
+  margin: 10px;
+  background: #fff;
 }
 .toast .icon {
   display: none;
@@ -2161,6 +2249,7 @@ p {
   margin-bottom: 10px;
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
+  background: #fff;
 }
 .alert h5 {
   width: 100%;

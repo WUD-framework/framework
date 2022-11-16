@@ -1,13 +1,29 @@
 @use "sass:map";
 @use "sass:math";
 
-.toast {
+@mixin toast() {
     display: flex;
     border-radius: $base-border-radius;
     box-shadow: 0 4px 8px rgba($color: map.get($map: $theme-colors, $key: base), $alpha: .10);
     width: 330px;
     min-height: 70px;
     margin: 10px;
+    background: map.get($map: $theme-colors, $key: light);
+}
+
+@each $key, $val in $theme-colors {
+    .toast {
+      @include toast();
+
+      &#{$key} {
+
+      }
+        
+    }
+}
+
+.toast {
+    @include toast();
 
     .icon {
         display: none;
