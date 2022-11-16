@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h2>LOGO</h2>
+            </div>
+            <div class="col-8">
+                Navigation
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="#">Customize</a></li>
+                    <li><a href="container-row-grid.html">Layout</a>
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Container</a></li>
+                            <li><a href="#">Row</a></li>
+                            <li><a href="#">Columns</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Content</a></li>
+                    <li><a href="#">Forms</a></li>
+                    <li><a href="#">Components</a>
+                        <ul>
+                            <li><a href="#">Hero Section</a></li>
+                            <li><a href="comp-notifications.html">Notifications / Alerts</a></li>
+                            <li><a href="#">Navigation</a></li>
+                            <li><a href="#">Accordions</a></li>
+                            <li><a href="#">Modal</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Helpers</a></li>
+                    <li><a href="#">Utilities</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="col-8">
+
+                <!-- TOASTS -->
+
+                <h2>Toasts</h2>
+
+                <br>
+                <p>
+                    Change toast type with classes: <br>
+                    "success", "warning", "danger", "info"
+                </p>
+                <br>
+                <p>Add style with classes: "icon", "colored"</p>
+
+                <div class="toast success">
+                    <div class="label"></div>
+                    <div class="icon">&check;</div>
+                    <div class="toast-body">
+                        <h5>Success</h5>
+                        <p>Standard succuess toast</p>
+                    </div>
+                    <button class="close-btn" onclick="closeToast()">
+                        &times;
+                    </button>
+                </div>
+
+                <!-- <div class="toast warning">
+                    <div class="label"></div>
+                    <div class="icon">&check;</div>
+                    <div class="toast-body">
+                        <h5>Warning</h5>
+                        <p>Standard warning toast</p>
+                    </div>
+                    <button class="close-btn" onclick="closeToast()">
+                        &times;
+                    </button>
+                </div>
+
+                <div class="toast danger">
+                    <div class="label"></div>
+                    <div class="icon">&check;</div>
+                    <div class="toast-body">
+                        <h5>Danger</h5>
+                        <p>Standard danger toast</p>
+                    </div>
+                    <button class="close-btn" onclick="closeToast()">
+                        &times;
+                    </button>
+                </div>
+
+                <div class="toast info">
+                    <div class="label"></div>
+                    <div class="icon">&check;</div>
+                    <div class="toast-body">
+                        <h5>Info</h5>
+                        <p>Standard info toast</p>
+                    </div>
+                    <button class="close-btn" onclick="closeToast()">
+                        &times;
+                    </button>
+                </div> -->
+
+                <!-- <button id="test" onclick="toastDemo()">Toast demo</button> -->
+                <!-- <button id="label-toggle" onclick="labelToggle()">Label</button> -->
+                <div id="buttons-div">
+                    <button class="btn" id="success-btn">Success</button>
+                    <button class="btn" id="warning-btn">Warning</button>
+                    <button class="btn" id="danger-btn">Danger</button>
+                    <button class="btn" id="info-btn">Info</button>
+                    <br>
+                    <button class="btn" id="label-toggle">Label</button>
+                    <button class="btn" id="colored-toggle">Colored</button>
+                    <br>
+                    <button class="btn" id="border-toggle">Border</button>
+                    <button class="btn" id="title-toggle">Title</button>
+                    <button class="btn" id="summary-toggle">Summary</button>
+                    <button class="btn" id="br-toggle">Border-Radius</button>
+                </div>
+
+
+                <!-- ALERTS -->
+
+                <h2>Alerts</h2>
+
+                <p>Add style with classes: "colored", "con-dis"</p>
+
+                <div class="alert success">
+                    <div class="header">
+                        <h5>Success</h5>
+                        <button class="close-btn" onclick="closeAlert()">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="description">
+                        Success description
+                    </div>
+                </div>
+
+                <div class="alert warning">
+                    <div class="header">
+                        <h5>warning</h5>
+                        <button class="close-btn" onclick="closeAlert()">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="description">
+                        Warning description
+                    </div>
+                </div>
+
+                <div class="alert danger">
+                    <div class="header">
+                        <h5>Danger</h5>
+                        <button class="close-btn" onclick="closeAlert()">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="description">
+                        Danger description
+                    </div>
+                </div>
+
+                <div class="alert info con-dis">
+                    <div class="header">
+                        <h5>Info</h5>
+                        <button class="close-btn" onclick="closeAlert()">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="description">
+                        Info description
+                    </div>
+                    <div class="button-div">
+                        <button class="btn-info">Confirm</button>
+                        <button class="btn" onclick="closeAlert()">Dismiss</button>
+                    </div>
+                </div>
+
+                <!-- NOTIFICATION -->
+
+            <h2>Notification</h2>
+            <div class="noti">
+                <div class="noti-header">
+                    <div class="section-1">
+                        <img src="#" class="noti-logo" alt=".">
+                        <strong class="noti-location">NOTIFICATION</strong>
+                    </div>
+                    <div class="section-2">
+                        <small>3 min ago</small>
+                        <button class="noti-close" onclick="closeNoti()">
+                            &times;
+                        </button>
+                    </div>
+                </div>
+                <div class="noti-content">
+                    <p>Lorem ipsum.</p>
+                </div>
+            </div>
+
+
+            </div>
+
+            
+        </div>
+    </div>
+    </div>
+
+
+
+    <script>
+        let toast = document.querySelector(".toast");
+        let buttons = document.getElementById("buttons-div");
+
+        buttons.addEventListener("click", e => {
+
+            switch (e.target.textContent) {
+
+                case "Success":
+                    toast.className = "toast"
+                    toast.classList.add("success");
+                    break;
+
+                case "Warning":
+                    toast.className = "toast"
+                    toast.classList.add("warning");
+                    break;
+
+                case "Danger":
+                    toast.className = "toast"
+                    toast.classList.add("danger");
+                    break;
+
+                case "Info":
+                    toast.className = "toast"
+                    toast.classList.add("info");
+                    break;
+
+                case "Label":
+                    toast.classList.toggle("no-label");
+                    break;
+
+                case "Colored":
+                    toast.classList.toggle("colored");
+                    break;
+
+                case "Border":
+                    toast.classList.toggle("no-border");
+                    break;
+
+                case "Title":
+                    toast.classList.toggle("no-title");
+                    break;
+
+                case "Summary":
+                    toast.classList.toggle("no-summary");
+                    break;
+
+                case "Border-Radius":
+                    toast.classList.toggle("no-border-radius");
+                    break;
+                default:
+                    break;
+            }
+        });
+
+        function closeAlert() {
+            event.target.closest('.alert').remove();
+        }
+
+        function closeNoti() {
+            event.target.closest('.noti').remove();
+        }
+
+        function closeToast() {
+            event.target.closest('.toast').remove();
+        }
+    </script>
+    </div>
+</body>
+
+</html>
