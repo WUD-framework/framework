@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+  color: rgb(24, 0, 68);
 }
 
 a {
@@ -47,10 +48,24 @@ p {
   padding: 5px 0 5px 0;
 }
 
+b {
+  font-size: $base-font-size * 1.2;
+}
+
 ul {
   // margin-top: 20px;
 
   li {
     list-style: circle;
+  }
+}
+
+.box {
+  margin-top: 80px;
+  padding-left: 300px;
+  width: 800px;
+
+  p {
+    line-height: 1.3;
   }
 }
