@@ -64,7 +64,7 @@
                 <br>
                 <p>Add style with classes: "icon", "colored"</p>
 
-                <div class="toast success">
+                <div class="toast success icon">
                     <div class="label"></div>
                     <div class="icon">&check;</div>
                     <div class="toast-body">
@@ -120,6 +120,7 @@
                     <button class="btn" id="danger-btn">Danger</button>
                     <button class="btn" id="info-btn">Info</button>
                     <br>
+                    <button class="btn" id="icon">Icon</button>
                     <button class="btn" id="label-toggle">Label</button>
                     <button class="btn" id="colored-toggle">Colored</button>
                     <br>
@@ -208,11 +209,7 @@
                     <p>Lorem ipsum.</p>
                 </div>
             </div>
-
-
-            </div>
-
-            
+            </div>  
         </div>
     </div>
     </div>
@@ -249,6 +246,10 @@
 
                 case "Label":
                     toast.classList.toggle("no-label");
+                    break;
+
+                case "Icon":
+                    toast.classList.toggle("icon");
                     break;
 
                 case "Colored":
