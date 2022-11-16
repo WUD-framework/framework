@@ -7,3 +7,12 @@
 ul {
   padding-inline-start: $base-padding * 2;
 }
+
+img {
+  max-width: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+}

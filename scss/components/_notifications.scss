@@ -1,0 +1,30 @@
+@use "sass:map";
+
+.noti {
+    border: 1px solid black;
+    max-width: 350px;
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: map.get($map: $theme-colors, $key: light);
+    
+}.noti-header {
+    background-color: map.get($theme-colors, "primary");
+    padding: 5px;
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+}
+
+.noti-content {
+    background-color: map.get($theme-colors, "secondary");
+    padding: 10px 5px 5px 5px;
+    max-width: 100%;
+    border-radius: 0 0 5px 5px;
+}
+
+.section-1 {
+    flex: 1;
+}

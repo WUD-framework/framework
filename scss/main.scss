@@ -8,20 +8,41 @@
 // BASE
 @import "base/normalize";
 @import "base/reset";
+@import "base/flex";
+@import "base/helpers";
 @import "base/typography";
 
 // COMPONENTS 
+@import "components/buttons.scss";
 @import "components/modal";
+@import "components/notifications.scss";
+@import "components/toasts.scss";
+@import "components/alerts.scss";
+@import "components/carousel";
+@import "components/cards";
+@import "components/comp-hero-section";
+@import "components/tables";
+
 // LAYOUTS
 @import "layout/grid";
 //@import "layout/header";
 @import "layout/navigation";
+@import "layout/side-navigation";
 
 // PAGES
 @import "pages/home";
-@import "pages/grid-html";
+@import "pages/grid-page";
 
 // THEMES
-//@import "themes/dark-theme";  
+//@import "themes/dark-theme";   
+
+// VENDOR
+@import "vendor/node_modules/animate.css/animate.min";
+
+// hej
 
 
+// Susanne
+// hej hej
+
+// Jo
