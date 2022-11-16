@@ -25,31 +25,75 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  @include fontSize(96px);
+  @include fontSize(48px);
 
-  @include for-tablet-portrait-up() {
+  @include for-tablet-portrait-up {
     @include fontSize(60px)
+  } 
+  
+  @include for-desktop-up {
+    @include fontSize(96px)
   }
 }
 
 h2 {
-  @include fontSize(64px);
+  @include fontSize(34px);
+
+  @include for-tablet-portrait-up {
+    @include fontSize(36px)
+  } 
+  
+  @include for-desktop-up {
+    @include fontSize(64px)
+  }
 }
 
 h3 {
-  font-size: 48px;
+  @include fontSize(26px);
+
+  @include for-tablet-portrait-up {
+    @include fontSize(26px)
+  } 
+  
+  @include for-desktop-up {
+    @include fontSize(48px)
+  }
 }
 
 h4 {
-  font-size: 34px;
+  @include fontSize(22px);
+
+  @include for-tablet-portrait-up {
+    @include fontSize(22px)
+  } 
+  
+  @include for-desktop-up {
+    @include fontSize(34px)
+  }
 }
 
 h5 {
-  font-size: 26px;
+  @include fontSize(18px);
+
+  @include for-tablet-portrait-up {
+    @include fontSize(18px)
+  } 
+  
+  @include for-desktop-up {
+    @include fontSize(26px)
+  }
 }
 
 h6 {
-  font-size: 18px;
+  @include fontSize(16px);
+
+  @include for-tablet-portrait-up {
+    @include fontSize(16px)
+  } 
+  
+  @include for-desktop-up {
+    @include fontSize(18px)
+  }
 }
 
 p {
