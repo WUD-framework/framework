@@ -1989,13 +1989,24 @@ h3 {
   color: black;
 }
 
+h6 {
+  font-size: 0.2em;
+  text-align: center;
+}
+
 div.progressbar {
-  background-color: black;
-  border: 1px solid black;
+  box-shadow: inset 0px 0px 10px rgba(255, 78, 83, 0.15);
   border-radius: 20px;
   margin-bottom: 10px;
-  height: 18px;
+  height: 17px;
   overflow: hidden;
+}
+div.progressbar.clear {
+  box-shadow: none;
+  border: 1px solid #48BD3E;
+}
+div.progressbar.lightShadow {
+  box-shadow: 2px 0px 0px #FB6A65;
 }
 div.progressbar > div {
   background-color: grey;

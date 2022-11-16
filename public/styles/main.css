@@ -1992,32 +1992,36 @@ h3 {
 div.progressbar {
   background-color: black;
   border: 1px solid black;
-  height: 25px;
   border-radius: 20px;
-  padding: 1px;
   margin-bottom: 10px;
+  height: 18px;
+  overflow: hidden;
 }
-
-.progressbar > div {
-  width: 25%;
-  height: 16px;
+div.progressbar > div {
+  background-color: grey;
+  height: 1rem;
   border-radius: 10px;
+  -webkit-animation: progress-build 2s 0.4s linear forwards;
+          animation: progress-build 2s 0.4s linear forwards;
 }
 
-.progressbar > div {
-  background-color: #00BFFF;
-  width: 50%;
-  height: 16px;
-  border-radius: 10px;
+@-webkit-keyframes progress-build {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 
-.progressbar > div {
-  background-color: #00BFFF;
-  width: 75%;
-  height: 16px;
-  border-radius: 10px;
+@keyframes progress-build {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
-
 .container {
   width: 100%;
   max-width: 1200px;

@@ -3,29 +3,46 @@ body {
   padding: 1em;
 }
 
-h3{
+h3 {
   font-weight: normal;
   color: black;
 }
 
-div.progressbar{
-  background-color: black;
-  border: 1px solid black;
+h6{
+  font-size:0.2em;
+  text-align: center;
+  
+}
+
+div.progressbar {
+  box-shadow: inset 0px 0px 10px rgba(270, 78, 83, 0.15);
   border-radius: 20px;
   margin-bottom: 10px;
-  height: 18px;
+  height: 17px;
   overflow: hidden;
 
-  & > div{
+  &.clear { 
+    box-shadow: none;
+    border: 1px solid #48BD3E;
+  }
+
+  &.lightShadow {
+    box-shadow: 2px 0px 0px #FB6A65;
+  }
+
+  &>div {
     background-color: grey;
     height: 1rem;
     border-radius: 10px;
-    animation: progress-build 2s .4s linear forwards; 
+    animation: progress-build 2s .4s linear forwards;
   }
 }
 
+
+
+
 @keyframes progress-build {
- from {
+  from {
     transform: translateX(-100%);
   }
 
@@ -33,11 +50,3 @@ div.progressbar{
     transform: translateX(0%);
   }
 }
-
-
-
-
-
-
-
-
