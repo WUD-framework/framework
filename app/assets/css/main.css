@@ -1852,41 +1852,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f4f4f4;
-  font-size: 17px;
-  line-height: 1.5;
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.button {
-  background: #fb6a65;
-  padding: 1em 2em;
-  color: #fff;
-  border: 0;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 15px;
-}
-
-.button:hover {
-  background: #df4e53;
-}
-
-.button-close {
-  background: #df4e53;
-  padding: 1em 2em;
-  color: #fff;
-  border: 0;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 15px;
-}
-
 .modal {
   display: none;
   position: fixed;
@@ -1898,8 +1863,7 @@ body {
   overflow: auto;
   background-color: rgba(28, 28, 28, 0.5);
 }
-
-.modal-content {
+.modal .modal-content {
   margin: 10% auto;
   width: 30%;
   text-align: center;
@@ -1910,48 +1874,43 @@ body {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
 }
-
-.modal-header {
-  margin: 0;
+@media (max-width: 599px) {
+  .modal .modal-content {
+    width: 90%;
+  }
 }
-
-.modal-header {
+.modal .modal-content .modal-header {
+  margin: 0;
   background: #fff;
   padding: 15px;
   color: #fff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
-.modal-body {
-  padding: 10px 20px;
-  background: #fff;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.modal-body h5 {
-  color: #df4e53;
-  font-size: 26px;
-  margin: 0;
-}
-
-.modal-body p {
-  font-size: 16px;
-}
-
-.close {
+.modal .modal-content .modal-header .close {
   color: #df4e53;
   float: right;
   font-size: 30px;
   line-height: 1;
 }
-
-.close:hover,
-.close:focus {
+.modal .modal-content .modal-header .close:hover, .modal .modal-content .modal-header .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+.modal .modal-content .modal-body {
+  padding: 10px 20px;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.modal .modal-content .modal-body h5 {
+  color: #df4e53;
+  font-size: 26px;
+  margin: 0;
+}
+.modal .modal-content .modal-body p {
+  font-size: 16px;
 }
 
 @-webkit-keyframes modalopen {
