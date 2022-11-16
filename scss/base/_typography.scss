@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1 {
   @include fontSize(96px);
+
+  @include for-tablet-portrait-up() {
+    @include fontSize(60px)
+  }
 }
 
 h2 {

@@ -1957,6 +1957,12 @@ h1 {
   font-size: 96px;
   font-size: 6rem;
 }
+@media (min-width: 600px) {
+  h1 {
+    font-size: 60px;
+    font-size: 3.75rem;
+  }
+}
 
 h2 {
   font-size: 64px;
