@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 
+@function calcRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calcRem($size);
+}
+
 * {
   font-family: 'Poppins';
   color: rgb(24, 0, 68);
@@ -14,17 +24,12 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-.col-12 {
-  display: flex;
-  justify-content: space-between;
-}
-
 h1 {
-  font-size: 96px;
+  @include fontSize(96px);
 }
 
 h2 {
-  font-size: 64px;
+  @include fontSize(64px);
 }
 
 h3 {
@@ -44,8 +49,10 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  @include fontSize(16px);
+  margin-bottom: $base-padding * 1.5;
 }
+
 
 // b {
 //   font-size: $base-font-size * 1.2;
@@ -66,37 +73,11 @@ ul {
   p {
     padding-bottom: 20px;
   }
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.4;
 }
 
-h1 {
-  font-size: 6rem;
-}
 
-h2 {
-  font-size: 4rem;
-}
 
-h3 {
-  font-size: 3rem;
-}
 
-h4 {
-  font-size: 2.125rem;
-}
-
-h5 {
-  font-size: 1.625rem;
-}
-
-h6 {
-  font-size: 1.125rem;
-}
-
-p {
-  margin-bottom: $base-padding * 1.5;
-}
 
 // SIZES
 
