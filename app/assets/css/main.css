@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
 :root {
   --black: #333;
   --white: #fff;
@@ -2105,7 +2105,7 @@ ul {
 }
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   color: #180044;
 }
 
@@ -2113,8 +2113,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.4;
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -2128,36 +2128,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 96px;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 64px;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 48px;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 34px;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 26px;
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 18px;
 }
 
 p {
-  font-size: 1rem;
-  padding: 5px 0 5px 0;
-}
-
-b {
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 
 ul li {
@@ -2171,7 +2166,7 @@ ul li {
 }
 
 .box p {
-  line-height: 1.3;
+  padding-bottom: 20px;
 }
 
 .container {
