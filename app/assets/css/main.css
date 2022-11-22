@@ -1989,37 +1989,63 @@ h3 {
   color: black;
 }
 
-h6 {
-  font-size: 0.2em;
-  text-align: center;
-  font-size: 0.15em;
-  font-weight: normal;
+.progressbar-container {
+  position: relative;
 }
-
-div.progressbar {
+.progressbar-container h6 {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  z-index: 99;
+  text-align: right;
+  width: 40%;
+  -webkit-animation: fadeIn 0.2s 2.6s linear forwards;
+          animation: fadeIn 0.2s 2.6s linear forwards;
+  opacity: 0;
+}
+.progressbar-container .progressbar {
   position: relative;
   box-shadow: inset 0px 0px 10px rgba(223, 78, 83, 0.15);
   border-radius: 20px;
   margin-bottom: 10px;
   height: 1rem;
+  margin-top: 30px;
   overflow: hidden;
 }
-div.progressbar.clear {
+.progressbar-container .progressbar.clear {
   box-shadow: none;
   outline: 1px solid #48BD3E;
 }
-div.progressbar > div {
+.progressbar-container .progressbar > div {
+  position: absolute;
   background-color: grey;
   height: 1rem;
-  position: absolute;
   top: 0;
   left: 0;
   border-radius: 10px;
   -webkit-animation: progress-build 2s 0.4s linear forwards;
           animation: progress-build 2s 0.4s linear forwards;
   box-shadow: 4px 0px 4px rgba(223, 78, 83, 0.15);
+  transform: translateX(-100%);
 }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @-webkit-keyframes progress-build {
   from {
     transform: translateX(-100%);
@@ -2028,7 +2054,6 @@ div.progressbar > div {
     transform: translateX(0%);
   }
 }
-
 @keyframes progress-build {
   from {
     transform: translateX(-100%);
