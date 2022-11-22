@@ -1989,20 +1989,35 @@ h3 {
   color: black;
 }
 
+h6 {
+  position: absolute;
+  font-size: 0.2em;
+  text-align: center;
+  font-size: 0.15em;
+  font-weight: normal;
+}
+
 div.progressbar {
-  background-color: black;
-  border: 1px solid black;
+  position: relative;
+  box-shadow: inset 0px 0px 10px rgba(223, 78, 83, 0.15);
   border-radius: 20px;
   margin-bottom: 10px;
-  height: 18px;
+  height: 1rem;
   overflow: hidden;
+}
+div.progressbar.clear {
+  box-shadow: none;
+  outline: 1px solid #48BD3E;
 }
 div.progressbar > div {
   background-color: grey;
   height: 1rem;
+  top: 0;
+  left: 0;
   border-radius: 10px;
   -webkit-animation: progress-build 2s 0.4s linear forwards;
           animation: progress-build 2s 0.4s linear forwards;
+  box-shadow: 4px 0px 4px rgba(223, 78, 83, 0.15);
 }
 
 @-webkit-keyframes progress-build {

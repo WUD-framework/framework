@@ -9,10 +9,12 @@ h3 {
 }
 
 h6{
+  position:absolute;
   font-size:0.2em;
   text-align: center;
   font-size: 0.15em;
   font-weight: normal;
+ 
 }
 
 div.progressbar {
@@ -28,14 +30,11 @@ div.progressbar {
     outline: 1px solid #48BD3E;
   }
 
-  &.lightShadow {
-  
-  }
 
   &>div {
     background-color: grey;
     height: 1rem;
-    position: absolute;
+    // position: absolute;
     top: 0;
     left: 0;
     border-radius: 10px;
