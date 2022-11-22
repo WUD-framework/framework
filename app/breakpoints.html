@@ -10,61 +10,88 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <h2 class="animate__animated animate__bounce">LOGO</h2>
-      </div>
-      <div class="col-8">
-        Navigation
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <ul>
-          <li><a href="index.html">Start</a></li>
-          <li><a href="#">Customize</a></li>
-          <li><a href="container-row-grid.html">Layout</a>
-            <ul>
-              <li><a href="#">Overview</a></li>
-              <li><a href="#">Container</a></li>
-              <li><a href="#">Row</a></li>
-              <li><a href="#">Columns</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Content</a></li>
-          <li><a href="#">Forms</a></li>
-          <li><a href="#">Components</a>
-            <ul>
-              <li><a href="#">Hero Section</a></li>
-              <li><a href="#">Notifications</a></li>
-              <li><a href="#">Navigation</a></li>
-              <li><a href="#">Accordions</a></li>
-              <li><a href="#">Modal</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Helpers</a></li>
-          <li><a href="#">Utilities</a></li>
-          <li><a href="#">About</a></li>
+  <nav class="sidenav">
+    <ul class="main-buttons">
+      <li>
+        <ion-icon name="home-outline"></ion-icon>
+        <a href="index.html">Home</a>
+      </li>
+      </li>
+      <li>
+        <ion-icon name="color-palette-outline"></ion-icon>
+        Customize
+      </li>
+      <li>
+        <ion-icon name="grid-outline"></ion-icon>
+        Layout
+        <ul class="hidden">
+          <li><a href="container-row-grid.html">Overview</a></li>
+          <li><a href="breakpoints.html">Breakpoints</a></li>
+          <li>Container</li>
+          <li>Rows</li>
+          <li><a href="#">Columns</a></li>
         </ul>
-      </div>
-      <div class="col-8">
-        <h1 class="animate__animated animate__fadeInUp">Breakpoints</h1>
-        <h3>Breakpoints are customizable widths that determine how your responsive layout behaves across device or viewport sizes.</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium dolorum, maxime soluta ipsum
-          exercitationem, repudiandae, consectetur molestiae cum eligendi animi magni a perferendis sequi accusamus ex
-          alias consequatur sapiente?
-        </p>
-        <a class="btn-primary">Click me</a> <a class="btn-secondary">Click me</a>
+      </li>
+      <li>
+        <ion-icon name="newspaper-outline"></ion-icon>
+        Content
+        <ul class="hidden">
+          <li><a href="#">Typography</a></li>
+        </ul>
+      </li>
+      <li>
+        <ion-icon name="newspaper-outline"></ion-icon>
+        Compontents
+        <ul class="hidden">
+          <li><a href="comp-buttons.html">Buttons</a></li>
+          <li><a href="comp-cards.html">Cards</a></li>
+          <li><a href="comp-hero-section.html">Hero Section</a></li>
+          <li><a href="comp-notifications.html">Notifications</a></li>
+          <li><a href="comp-carousel.html">Carousel</a></li>
+          <li><a href="comp-modal.html">Modals</a></li>
+          <li><a href="gallery.html">Image Gallery</a></li>
+        </ul>
+      </li>
+      <li>
+        <ion-icon name="clipboard-outline"></ion-icon>
+        Forms
+        <ul class="hidden">
+          <li><a href="#">Typography</a></li>
+        </ul>
+      </li>
+      <li>
+        <ion-icon name="help-buoy-outline"></ion-icon>
+        <a href="#">Helpers / Utility</a>
+        <ul class="hidden">
+          <li></li>
+        </ul>
+      </li>
+      <li>
+        <ion-icon name="information-circle-outline"></ion-icon>
+        <a href="about.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="animate__animated animate__fadeInUp">Breakpoints</h1>
+          <h3>Breakpoints are customizable widths that determine how your responsive layout behaves across device or
+            viewport sizes.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium dolorum, maxime soluta ipsum
+            exercitationem, repudiandae, consectetur molestiae cum eligendi animi magni a perferendis sequi accusamus ex
+            alias consequatur sapiente?
+          </p>
+          <a class="btn-primary">Click me</a> <a class="btn-secondary">Click me</a>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- SCRIPT -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </main>
+    <!-- SCRIPT -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

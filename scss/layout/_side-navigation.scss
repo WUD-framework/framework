@@ -1,6 +1,6 @@
 $color-dark: #1E2027;
-$width: 280px;
-$width-compressed: 52px;
+$width: 17.5rem;
+$width-compressed: 3.25rem;
 
 .sidenav {
     position: fixed;
@@ -20,6 +20,10 @@ $width-compressed: 52px;
             font-family: 'Open Sans', sans-serif;
             font-size: 15px;
             font-weight: 600;
+
+            a {
+                color: #fff;
+            }
         }
 
         &>li {
@@ -30,6 +34,10 @@ $width-compressed: 52px;
                 left: 12px;
                 font-size: 1.8rem;
                 color: lighten($color-dark, 16);
+
+                a {
+                    color: #fff;
+                }
             }
 
             &:hover,
@@ -63,6 +71,10 @@ $width-compressed: 52px;
 
     li {
         padding: 16px 24px;
+
+        a {
+            color: #fff;
+        }
 
         &:hover,
         &:active,
