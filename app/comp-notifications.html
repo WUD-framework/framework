@@ -10,73 +10,99 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <h2>LOGO</h2>
-            </div>
-            <div class="col-8">
-                Navigation
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <ul>
-                    <li><a href="index.html">Start</a></li>
-                    <li><a href="#">Customize</a></li>
-                    <li><a href="container-row-grid.html">Layout</a>
-                        <ul>
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="#">Container</a></li>
-                            <li><a href="#">Row</a></li>
-                            <li><a href="#">Columns</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Content</a></li>
-                    <li><a href="#">Forms</a></li>
-                    <li><a href="#">Components</a>
-                        <ul>
-                            <li><a href="#">Hero Section</a></li>
-                            <li><a href="comp-notifications.html">Notifications / Alerts</a></li>
-                            <li><a href="#">Navigation</a></li>
-                            <li><a href="#">Accordions</a></li>
-                            <li><a href="#">Modal</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Helpers</a></li>
-                    <li><a href="#">Utilities</a></li>
-                    <li><a href="#">About</a></li>
+
+    <nav class="sidenav">
+        <ul class="main-buttons">
+            <li>
+                <ion-icon name="home-outline"></ion-icon>
+                <a href="index.html">Home</a>
+            </li>
+            </li>
+            <li>
+                <ion-icon name="color-palette-outline"></ion-icon>
+                Customize
+            </li>
+            <li>
+                <ion-icon name="grid-outline"></ion-icon>
+                Layout
+                <ul class="hidden">
+                    <li><a href="container-row-grid.html">Overview</a></li>
+                    <li><a href="breakpoints.html">Breakpoints</a></li>
+                    <li>Container</li>
+                    <li>Rows</li>
+                    <li><a href="#">Columns</a></li>
                 </ul>
-            </div>
-            <div class="col-8">
+            </li>
+            <li>
+                <ion-icon name="newspaper-outline"></ion-icon>
+                Content
+                <ul class="hidden">
+                    <li><a href="#">Typography</a></li>
+                </ul>
+            </li>
+            <li>
+                <ion-icon name="newspaper-outline"></ion-icon>
+                Compontents
+                <ul class="hidden">
+                    <li><a href="comp-buttons.html">Buttons</a></li>
+                    <li><a href="comp-cards.html">Cards</a></li>
+                    <li><a href="comp-hero-section.html">Hero Section</a></li>
+                    <li><a href="comp-notifications.html">Notifications</a></li>
+                    <li><a href="comp-carousel.html">Carousel</a></li>
+                    <li><a href="comp-modal.html">Modals</a></li>
+                    <li><a href="gallery.html">Image Gallery</a></li>
+                </ul>
+            </li>
+            <li>
+                <ion-icon name="clipboard-outline"></ion-icon>
+                Forms
+                <ul class="hidden">
+                    <li><a href="#">Typography</a></li>
+                </ul>
+            </li>
+            <li>
+                <ion-icon name="help-buoy-outline"></ion-icon>
+                <a href="#">Helpers / Utility</a>
+                <ul class="hidden">
+                    <li></li>
+                </ul>
+            </li>
+            <li>
+                <ion-icon name="information-circle-outline"></ion-icon>
+                <a href="about.html">About</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
 
-                <!-- TOASTS -->
+                    <!-- TOASTS -->
 
-                <h2>Toasts</h2>
+                    <h2>Toasts</h2>
 
-                <br>
-                <p>
-                    Change toast type with classes: <br>
-                    "success", "warning", "danger", "info"
-                </p>
-                <br>
-                <p>Add style with classes: "icon", "colored"</p>
+                    <br>
+                    <p>
+                        Change toast type with classes: <br>
+                        "success", "warning", "danger", "info"
+                    </p>
+                    <br>
+                    <p>Add style with classes: "icon", "colored"</p>
 
-                <div class="toast success">
-                    <div class="label"></div>
-                    <div class="icon">&check;</div>
-                    <div class="toast-body">
-                        <h5>Success</h5>
-                        <p>Standard succuess toast</p>
+                    <div class="toast success">
+                        <div class="label"></div>
+                        <div class="icon">&check;</div>
+                        <div class="toast-body">
+                            <h5>Success</h5>
+                            <p>Standard succuess toast</p>
+                        </div>
+                        <button class="close-btn" onclick="closeToast()">
+                            &times;
+                        </button>
                     </div>
-                    <button class="close-btn" onclick="closeToast()">
-                        &times;
-                    </button>
-                </div>
 
-                <!-- <div class="toast warning">
+                    <!-- <div class="toast warning">
                     <div class="label"></div>
                     <div class="icon">&check;</div>
                     <div class="toast-body">
@@ -112,111 +138,112 @@
                     </button>
                 </div> -->
 
-                <!-- <button id="test" onclick="toastDemo()">Toast demo</button> -->
-                <!-- <button id="label-toggle" onclick="labelToggle()">Label</button> -->
-                <div id="buttons-div">
-                    <button class="btn" id="success-btn">Success</button>
-                    <button class="btn" id="warning-btn">Warning</button>
-                    <button class="btn" id="danger-btn">Danger</button>
-                    <button class="btn" id="info-btn">Info</button>
-                    <br>
-                    <button class="btn" id="label-toggle">Label</button>
-                    <button class="btn" id="colored-toggle">Colored</button>
-                    <br>
-                    <button class="btn" id="border-toggle">Border</button>
-                    <button class="btn" id="title-toggle">Title</button>
-                    <button class="btn" id="summary-toggle">Summary</button>
-                    <button class="btn" id="br-toggle">Border-Radius</button>
+                    <!-- <button id="test" onclick="toastDemo()">Toast demo</button> -->
+                    <!-- <button id="label-toggle" onclick="labelToggle()">Label</button> -->
+                    <div id="buttons-div">
+                        <button class="btn" id="success-btn">Success</button>
+                        <button class="btn" id="warning-btn">Warning</button>
+                        <button class="btn" id="danger-btn">Danger</button>
+                        <button class="btn" id="info-btn">Info</button>
+                        <br>
+                        <button class="btn" id="label-toggle">Label</button>
+                        <button class="btn" id="colored-toggle">Colored</button>
+                        <br>
+                        <button class="btn" id="border-toggle">Border</button>
+                        <button class="btn" id="title-toggle">Title</button>
+                        <button class="btn" id="summary-toggle">Summary</button>
+                        <button class="btn" id="br-toggle">Border-Radius</button>
+                    </div>
+
+
+                    <!-- ALERTS -->
+
+                    <h2>Alerts</h2>
+
+                    <p>Add style with classes: "colored", "con-dis"</p>
+
+                    <div class="alert success">
+                        <div class="header">
+                            <h5>Success</h5>
+                            <button class="close-btn" onclick="closeAlert()">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="description">
+                            Success description
+                        </div>
+                    </div>
+
+                    <div class="alert warning">
+                        <div class="header">
+                            <h5>warning</h5>
+                            <button class="close-btn" onclick="closeAlert()">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="description">
+                            Warning description
+                        </div>
+                    </div>
+
+                    <div class="alert danger">
+                        <div class="header">
+                            <h5>Danger</h5>
+                            <button class="close-btn" onclick="closeAlert()">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="description">
+                            Danger description
+                        </div>
+                    </div>
+
+                    <div class="alert info con-dis">
+                        <div class="header">
+                            <h5>Info</h5>
+                            <button class="close-btn" onclick="closeAlert()">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="description">
+                            Info description
+                        </div>
+                        <div class="button-div">
+                            <button class="btn-info">Confirm</button>
+                            <button class="btn" onclick="closeAlert()">Dismiss</button>
+                        </div>
+                    </div>
+
+                    <!-- NOTIFICATION -->
+
+                    <h2>Notification</h2>
+                    <div class="noti">
+                        <div class="noti-header">
+                            <div class="section-1">
+                                <img src="#" class="noti-logo" alt=".">
+                                <strong class="noti-location">NOTIFICATION</strong>
+                            </div>
+                            <div class="section-2">
+                                <small>3 min ago</small>
+                                <button class="noti-close" onclick="closeNoti()">
+                                    &times;
+                                </button>
+                            </div>
+                        </div>
+                        <div class="noti-content">
+                            <p>Lorem ipsum.</p>
+                        </div>
+                    </div>
+
+
                 </div>
 
 
-                <!-- ALERTS -->
-
-                <h2>Alerts</h2>
-
-                <p>Add style with classes: "colored", "con-dis"</p>
-
-                <div class="alert success">
-                    <div class="header">
-                        <h5>Success</h5>
-                        <button class="close-btn" onclick="closeAlert()">
-                            &times;
-                        </button>
-                    </div>
-                    <div class="description">
-                        Success description
-                    </div>
-                </div>
-
-                <div class="alert warning">
-                    <div class="header">
-                        <h5>warning</h5>
-                        <button class="close-btn" onclick="closeAlert()">
-                            &times;
-                        </button>
-                    </div>
-                    <div class="description">
-                        Warning description
-                    </div>
-                </div>
-
-                <div class="alert danger">
-                    <div class="header">
-                        <h5>Danger</h5>
-                        <button class="close-btn" onclick="closeAlert()">
-                            &times;
-                        </button>
-                    </div>
-                    <div class="description">
-                        Danger description
-                    </div>
-                </div>
-
-                <div class="alert info con-dis">
-                    <div class="header">
-                        <h5>Info</h5>
-                        <button class="close-btn" onclick="closeAlert()">
-                            &times;
-                        </button>
-                    </div>
-                    <div class="description">
-                        Info description
-                    </div>
-                    <div class="button-div">
-                        <button class="btn-info">Confirm</button>
-                        <button class="btn" onclick="closeAlert()">Dismiss</button>
-                    </div>
-                </div>
-
-                <!-- NOTIFICATION -->
-
-            <h2>Notification</h2>
-            <div class="noti">
-                <div class="noti-header">
-                    <div class="section-1">
-                        <img src="#" class="noti-logo" alt=".">
-                        <strong class="noti-location">NOTIFICATION</strong>
-                    </div>
-                    <div class="section-2">
-                        <small>3 min ago</small>
-                        <button class="noti-close" onclick="closeNoti()">
-                            &times;
-                        </button>
-                    </div>
-                </div>
-                <div class="noti-content">
-                    <p>Lorem ipsum.</p>
-                </div>
             </div>
-
-
-            </div>
-
-            
         </div>
-    </div>
-    </div>
-    </div>
+        </div>
+        </div>
+    </main>
     <script src="assets/js/comp-notification.js"></script>
 </body>
 
