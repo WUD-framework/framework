@@ -2620,13 +2620,16 @@ table tr td {
   padding: 0.8rem;
 }
 
+main {
+  margin-left: 17.5rem;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: 0 auto;
-  border: 1px solid coral;
 }
 .container-fluid {
   width: 100%;
@@ -2640,11 +2643,9 @@ table tr td {
   min-width: 100%;
   margin-left: -1rem;
   margin-right: -1rem;
-  border: 1px solid teal;
 }
 .row > * {
   padding: 1rem;
-  border: 1px solid yellow;
 }
 
 .navigation {
@@ -2699,7 +2700,7 @@ table tr td {
 
 .sidenav {
   position: fixed;
-  width: 280px;
+  width: 17.5rem;
   height: 100%;
   background-color: #1E2027;
 }
@@ -2716,8 +2717,11 @@ table tr td {
   font-size: 15px;
   font-weight: 600;
 }
+.sidenav .main-buttons li a {
+  color: #fff;
+}
 .sidenav .main-buttons > li {
-  padding: 16px 52px;
+  padding: 16px 3.25rem;
 }
 .sidenav .main-buttons > li ion-icon {
   position: absolute;
@@ -2725,12 +2729,15 @@ table tr td {
   font-size: 1.8rem;
   color: #414655;
 }
+.sidenav .main-buttons > li ion-icon a {
+  color: #fff;
+}
 .sidenav .main-buttons > li:hover, .sidenav .main-buttons > li:active, .sidenav .main-buttons > li:focus {
   background-color: #292c35;
   cursor: pointer;
 }
 .sidenav .main-buttons > li:hover .hidden, .sidenav .main-buttons > li:active .hidden, .sidenav .main-buttons > li:focus .hidden {
-  width: 228px;
+  width: 14.25rem;
 }
 
 .hidden {
@@ -2747,6 +2754,9 @@ table tr td {
 }
 .hidden li {
   padding: 16px 24px;
+}
+.hidden li a {
+  color: #fff;
 }
 .hidden li:hover, .hidden li:active, .hidden li:focus {
   background-color: #323541;

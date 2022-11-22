@@ -4,7 +4,7 @@
   padding-left: $base-padding;
   padding-right: $base-padding;
   margin: 0 auto;
-  border: 1px solid coral;
+  // border: 1px solid coral;
 
   &-fluid {
     width: 100%;
@@ -19,11 +19,11 @@
   min-width: 100%;
   margin-left: $grid-gutter-size * -1;
   margin-right: $grid-gutter-size * -1;
-  border: 1px solid teal;
+  // border: 1px solid teal;
 
   & > * {
     padding: $grid-gutter-size;
-    border: 1px solid yellow;
+    // border: 1px solid yellow;
   }
 }
 
